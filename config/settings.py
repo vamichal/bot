@@ -156,6 +156,11 @@ MEDIA_ROOT = DATA_DIR / 'media'
 # Бланки КП: у каждого арендодателя свой, выбирается при выгрузке.
 KP_TEMPLATES_DIR = BASE_DIR / 'templates' / 'word_templates'
 
+# Менеджер в колонтитуле КП. В CRM он брался из профиля клиента, здесь —
+# один на всех; задаётся окружением, чтобы менять без пересборки.
+KP_MANAGER_FIO = os.getenv("KP_MANAGER_FIO", "")
+KP_MANAGER_PHONE = os.getenv("KP_MANAGER_PHONE", "")
+
 
 # Email
 # https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration

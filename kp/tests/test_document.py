@@ -1,6 +1,6 @@
 import datetime
 
-from django.test import SimpleTestCase
+from django.test import SimpleTestCase, override_settings
 from docx import Document
 
 from kp.services.document import (
@@ -68,6 +68,26 @@ class TotalsTest(SimpleTestCase):
         """Пустая строка гасит блок в шаблоне: «вес – 0кг.» в документе не нужен."""
 
         self.assertEqual(totals([{"name": "x", "quantity": 1, "price": 0}])["volume"], "")
+
+
+class ManagerTest(SimpleTestCase):
+    @override_settings(KP_MANAGER_FIO="Петров Пётр Петрович", KP_MANAGER_PHONE="+7 383 214-04-46")
+    def test_takes_manager_from_settings(self):
+        built = build_context(
+            shortname="Клиент",
+            address="Адрес",
+            sequence_number=1,
+            date_created=datetime.date(2026, 11, 14),
+            items=ITEMS,
+            rent_day=100.0,
+        )
+
+        self.assertEqual(built["fio_manager"], "Петров Пётр Петрович")
+        self.assertEqual(built["phone_manager"], "+7 383 214-04-46")
+
+    @override_settings(KP_MANAGER_FIO="Петров Пётр Петрович")
+    def test_explicit_manager_wins(self):
+        self.assertEqual(context(fio_manager="Сидоров")["fio_manager"], "Сидоров")
 
 
 class ContextTest(SimpleTestCase):

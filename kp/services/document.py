@@ -72,14 +72,17 @@ def build_context(
     date_created,
     items: list[dict],
     rent_day: float,
-    fio_manager: str = "",
-    phone_manager: str = "",
+    fio_manager: str | None = None,
+    phone_manager: str | None = None,
     security_payment_percent: float = DEFAULT_SECURITY_PAYMENT_PERCENT,
 ) -> dict:
     """Контекст подстановки для бланка КП.
 
     items — позиции со снимком параметров оборудования на момент сборки:
     документ не должен меняться вслед за ночной выгрузкой.
+
+    Менеджер в колонтитуле один на всех и берётся из настроек; параметрами
+    его можно переопределить — пригодится в тестах.
     """
 
     sum_kp = sum((item.get("price") or 0) * item["quantity"] for item in items)
@@ -96,8 +99,8 @@ def build_context(
         "ob": format_money(sum_kp * security_payment_percent / 100),
         "items": items,
         **totals(items),
-        "fio_manager": fio_manager,
-        "phone_manager": phone_manager,
+        "fio_manager": settings.KP_MANAGER_FIO if fio_manager is None else fio_manager,
+        "phone_manager": settings.KP_MANAGER_PHONE if phone_manager is None else phone_manager,
     }
 
 
