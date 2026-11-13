@@ -182,25 +182,25 @@ class ManagersMessageTest(SimpleTestCase):
 
 
 class FakeBot:
-    def __init__(self, fail=False):
+    def __init__(self, fail_for=frozenset()):
         self.sent = []
-        self.fail = fail
+        self.fail_for = fail_for
 
     async def send_message(self, **kwargs):
-        if self.fail:
+        if kwargs["chat_id"] in self.fail_for:
             raise RuntimeError("чат недоступен")
         self.sent.append(kwargs)
 
 
 class NotifyManagersTest(SimpleTestCase):
-    @override_settings(KP_MANAGERS_CHAT_ID=None)
-    def test_silent_when_chat_is_not_configured(self):
+    @override_settings(KP_MANAGERS_CHAT_IDS=[])
+    def test_silent_when_no_chats_configured(self):
         bot = FakeBot()
         async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
 
         self.assertEqual(bot.sent, [])
 
-    @override_settings(KP_MANAGERS_CHAT_ID=-73410621418148)
+    @override_settings(KP_MANAGERS_CHAT_IDS=[-73410621418148])
     def test_sends_text_and_file(self):
         bot = FakeBot()
         async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
@@ -209,8 +209,26 @@ class NotifyManagersTest(SimpleTestCase):
         self.assertEqual(bot.sent[0]["chat_id"], -73410621418148)
         self.assertEqual(bot.sent[0]["attachments"][0].filename, "КП-1")
 
-    @override_settings(KP_MANAGERS_CHAT_ID=-73410621418148)
+    @override_settings(KP_MANAGERS_CHAT_IDS=[-73410621418148, 656501626])
+    def test_sends_to_every_chat(self):
+        bot = FakeBot()
+        async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+
+        self.assertEqual([sent["chat_id"] for sent in bot.sent], [-73410621418148, 656501626])
+
+    @override_settings(KP_MANAGERS_CHAT_IDS=[-73410621418148, 656501626])
+    def test_one_broken_chat_does_not_block_the_rest(self):
+        """Группа недоступна до модерации бота — личка менеджера страдать не должна."""
+
+        bot = FakeBot(fail_for={-73410621418148})
+        async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+
+        self.assertEqual([sent["chat_id"] for sent in bot.sent], [656501626])
+
+    @override_settings(KP_MANAGERS_CHAT_IDS=[-73410621418148])
     def test_failure_does_not_propagate(self):
         """Пользователь свой файл уже получил — ронять диалог из-за чата нельзя."""
 
-        async_to_sync(notify_managers)(FakeBot(fail=True), 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+        async_to_sync(notify_managers)(
+            FakeBot(fail_for={-73410621418148}), 1, DATA, ITEMS, USER, b"PK", "КП-1.docx"
+        )

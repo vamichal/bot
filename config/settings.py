@@ -161,9 +161,12 @@ KP_TEMPLATES_DIR = BASE_DIR / 'templates' / 'word_templates'
 KP_MANAGER_FIO = os.getenv("KP_MANAGER_FIO", "")
 KP_MANAGER_PHONE = os.getenv("KP_MANAGER_PHONE", "")
 
-# Чат менеджеров в MAX, куда падает уведомление о каждом собранном КП,
-# чтобы заявка не потерялась в личной переписке с ботом. Пусто — не слать.
-KP_MANAGERS_CHAT_ID = int(os.getenv("KP_MANAGERS_CHAT_ID", "0")) or None
+# Чаты в MAX, куда падает уведомление о каждом собранном КП, чтобы заявка
+# не потерялась в личной переписке с ботом. Через запятую: группа менеджеров
+# и при необходимости личные диалоги. Пусто — не слать никому.
+KP_MANAGERS_CHAT_IDS = [
+    int(chat_id) for chat_id in os.getenv("KP_MANAGERS_CHAT_IDS", "").replace(" ", "").split(",") if chat_id
+]
 
 
 # Email

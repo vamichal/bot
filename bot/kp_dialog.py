@@ -201,24 +201,25 @@ def managers_message(number: int, data: dict, items: list[dict], user) -> str:
 
 
 async def notify_managers(bot, number: int, data: dict, items: list[dict], user, raw: bytes, filename: str) -> None:
-    """Дублирует КП в чат менеджеров.
+    """Дублирует КП во все настроенные чаты.
 
-    Молча пропускаем, если чат не настроен, и не роняем диалог, если
-    отправка не удалась: пользователь свой файл уже получил, и терять
-    его из-за недоступного чата нельзя.
+    Каждый адрес обрабатывается отдельно: недоступная группа не должна
+    мешать доставке в остальные чаты. Ошибку наружу не пробрасываем —
+    пользователь свой файл уже получил, и терять его из-за чужого чата
+    нельзя.
     """
 
-    if not settings.KP_MANAGERS_CHAT_ID:
-        return
+    text = managers_message(number, data, items, user)
 
-    try:
-        await bot.send_message(
-            chat_id=settings.KP_MANAGERS_CHAT_ID,
-            text=managers_message(number, data, items, user),
-            attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
-        )
-    except Exception:
-        logger.exception("Не удалось отправить КП-%s в чат менеджеров", number)
+    for chat_id in settings.KP_MANAGERS_CHAT_IDS:
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=text,
+                attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
+            )
+        except Exception:
+            logger.exception("Не удалось отправить КП-%s в чат %s", number, chat_id)
 
 
 def basket(items: list[dict]) -> str:
