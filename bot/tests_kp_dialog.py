@@ -93,3 +93,21 @@ class CatalogueQueriesTest(TestCase):
         KPEquipment.objects.create(name="Клён садовый", group="Прочее", price=1.0)
 
         self.assertEqual(len(async_to_sync(search)("клен")), 1)
+
+
+class AckTest(SimpleTestCase):
+    """MAX отклоняет пустой ответ на нажатие кнопки с 400 proto.payload."""
+
+    def test_no_bare_ack_calls(self):
+        import re
+        from pathlib import Path
+
+        source = Path(__file__).resolve().parent.joinpath("kp_dialog.py").read_text(encoding="utf-8")
+        bare = re.findall(r"\.ack\(\s*\)", source)
+
+        self.assertEqual(bare, [], "ack() без notification MAX отклоняет — передайте текст уведомления")
+
+    def test_every_landlord_has_a_title_for_the_notification(self):
+        from kp.services.document import LANDLORD_CHOICES, TEMPLATE_BY_LANDLORD
+
+        self.assertEqual(set(dict(LANDLORD_CHOICES)), set(TEMPLATE_BY_LANDLORD))

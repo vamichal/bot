@@ -224,7 +224,9 @@ async def set_landlord(event: MessageCallback, context: MemoryContext):
         return
 
     await context.update_data(landlord=code)
-    await event.ack()
+    # Уведомление обязательно: MAX отклоняет пустой ответ на нажатие
+    # (`message` or `notification` required), и кнопка зависает.
+    await event.ack(notification=dict(LANDLORD_CHOICES)[code])
     await show_groups(event.send, context, prefix="Шаг 4 из 4. ")
 
 
@@ -271,7 +273,7 @@ async def pick_equipment(event: MessageCallback, context: MemoryContext):
 
     await context.update_data(pending=equipment)
     await context.set_state(KPForm.quantity)
-    await event.ack()
+    await event.ack(notification=equipment["name"])
     await event.send(f"{equipment['name']}\nЦена: {format_money(equipment['price'])} ₽\n\nСколько штук?")
 
 
