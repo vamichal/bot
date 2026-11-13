@@ -1,5 +1,1 @@
-from django.contrib import admin
-from .models import Item, Order
-
-admin.site.register(Item)
-admin.site.register(Order)
+# Своих моделей у приложения bot нет — всё в админке регистрирует kp.
