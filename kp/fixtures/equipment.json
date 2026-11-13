@@ -1,0 +1,5447 @@
+[
+{
+  "model": "kp.kpequipment",
+  "pk": 1,
+  "fields": {
+    "name": "Анкер балки выравнивающей 240 т",
+    "group": "Крепеж",
+    "price": 175.0,
+    "weight": 0.06,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 2,
+  "fields": {
+    "name": "Анкер торцевой",
+    "group": "Крепеж",
+    "price": 650.0,
+    "weight": 1.6,
+    "space": 0.0,
+    "volume": 0.00025,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 3,
+  "fields": {
+    "name": "Балка выравнивающая 3,0 м.",
+    "group": "Крепеж",
+    "price": 8966.0,
+    "weight": 35.0,
+    "space": 0.0,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 4,
+  "fields": {
+    "name": "Балка выравнивающая 3,0 м. (100Х50)",
+    "group": "Крепеж",
+    "price": 13966.0,
+    "weight": 48.0,
+    "space": 0.0,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 5,
+  "fields": {
+    "name": "Балка контрфорса выравнивающая 1,45 м.",
+    "group": "Крепеж",
+    "price": 5703.0,
+    "weight": 25.0,
+    "space": 0.0,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 6,
+  "fields": {
+    "name": "Балка контрфорса выравнивающая 2,20 м.",
+    "group": "Крепеж",
+    "price": 9632.0,
+    "weight": 30.0,
+    "space": 0.0,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 7,
+  "fields": {
+    "name": "Балка контрфорса выравнивающая 2,45 м.",
+    "group": "Крепеж",
+    "price": 12272.0,
+    "weight": 34.0,
+    "space": 0.0,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 8,
+  "fields": {
+    "name": "Балка контрфорса выравнивающая 2,7 м.",
+    "group": "Крепеж",
+    "price": 16320.0,
+    "weight": 45.0,
+    "space": 0.0,
+    "volume": 0.7,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 9,
+  "fields": {
+    "name": "Балка контрфорса выравнивающая 3,0 м.",
+    "group": "Крепеж",
+    "price": 18837.0,
+    "weight": 52.0,
+    "space": 0.0,
+    "volume": 0.9,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 10,
+  "fields": {
+    "name": "Болт соединительный к контфорсу с гравером и шайбой",
+    "group": "Крепеж",
+    "price": 50.0,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 6e-05,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 11,
+  "fields": {
+    "name": "Гайка",
+    "group": "Крепеж",
+    "price": 190.0,
+    "weight": 0.55,
+    "space": 0.0,
+    "volume": 5e-05,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 12,
+  "fields": {
+    "name": "Гайка 20",
+    "group": "Крепеж",
+    "price": 26.0,
+    "weight": 0.5,
+    "space": 0.0,
+    "volume": 7e-05,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 13,
+  "fields": {
+    "name": "Гайка к соединительному болту контфорса",
+    "group": "Крепеж",
+    "price": 50.0,
+    "weight": 0.01,
+    "space": 0.001,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 14,
+  "fields": {
+    "name": "Гайка к хомуту (контрфорса)",
+    "group": "Крепеж",
+    "price": 58.0,
+    "weight": 0.4,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 15,
+  "fields": {
+    "name": "Замок клиновой «Краб»",
+    "group": "Крепеж",
+    "price": 950.0,
+    "weight": 3.0,
+    "space": 0.0,
+    "volume": 0.0013,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 16,
+  "fields": {
+    "name": "Замок переходной",
+    "group": "Крепеж",
+    "price": 1600.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.00024,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 17,
+  "fields": {
+    "name": "Замок реечный",
+    "group": "Крепеж",
+    "price": 1750.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 18,
+  "fields": {
+    "name": "Замок удлиненный",
+    "group": "Крепеж",
+    "price": 1600.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.0014,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 19,
+  "fields": {
+    "name": "Захват крановый",
+    "group": "Крепеж",
+    "price": 10000.0,
+    "weight": 6.9,
+    "space": 0.0,
+    "volume": 0.0015,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 20,
+  "fields": {
+    "name": "Клин для планки контрфорса",
+    "group": "Крепеж",
+    "price": 153.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 21,
+  "fields": {
+    "name": "Контрфорс  1,5 м. (добор)",
+    "group": "Крепеж",
+    "price": 49993.0,
+    "weight": 179.0,
+    "space": 0.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 22,
+  "fields": {
+    "name": "Контрфорс  3 м.",
+    "group": "Крепеж",
+    "price": 35521.0,
+    "weight": 122.0,
+    "space": 0.0,
+    "volume": 2.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 23,
+  "fields": {
+    "name": "Кронштейн подмостей универсальный",
+    "group": "Крепеж",
+    "price": 2590.0,
+    "weight": 5.7,
+    "space": 0.0,
+    "volume": 0.152,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 24,
+  "fields": {
+    "name": "Ограждающее устройство универсальное",
+    "group": "Крепеж",
+    "price": 2120.0,
+    "weight": 12.0,
+    "space": 0.0,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 25,
+  "fields": {
+    "name": "Опора контрфорса ф 70",
+    "group": "Крепеж",
+    "price": 8970.0,
+    "weight": 52.0,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 26,
+  "fields": {
+    "name": "Подкос 1-дно уровневый с оголов. 6 м. универсальным оголовником",
+    "group": "Крепеж",
+    "price": 11000.0,
+    "weight": 22.0,
+    "space": 0.0,
+    "volume": 0.0337,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 27,
+  "fields": {
+    "name": "Подкос 1-дно уровневый с оголов. 8 м. универсальным оголовником",
+    "group": "Крепеж",
+    "price": 22000.0,
+    "weight": 30.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 28,
+  "fields": {
+    "name": "Подкос 2-х уровневый 2,9 м. под  алюминий",
+    "group": "Крепеж",
+    "price": 11000.0,
+    "weight": 27.2,
+    "space": 0.0,
+    "volume": 0.0337,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 29,
+  "fields": {
+    "name": "Подкос 2-х уровневый 2,9 м. с универсальным оголовником",
+    "group": "Крепеж",
+    "price": 11000.0,
+    "weight": 27.2,
+    "space": 0.0,
+    "volume": 0.0337,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 30,
+  "fields": {
+    "name": "Подкос 2-х уровневый 6 м. универсальным оголовником",
+    "group": "Крепеж",
+    "price": 11000.0,
+    "weight": 44.0,
+    "space": 0.001,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 31,
+  "fields": {
+    "name": "Соединительная планка для балки контфорса 0,6 м.",
+    "group": "Крепеж",
+    "price": 1556.0,
+    "weight": 0.2,
+    "space": 0.01,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 32,
+  "fields": {
+    "name": "Соединительная планка для балки контфорса 1,0 м.",
+    "group": "Крепеж",
+    "price": 1778.0,
+    "weight": 0.8,
+    "space": 0.01,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 33,
+  "fields": {
+    "name": "Труба 48х3,5х2000 к контрфорсу",
+    "group": "Крепеж",
+    "price": 2302.0,
+    "weight": 8.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 34,
+  "fields": {
+    "name": "Труба 48х3,5х3000 к контрфорсу",
+    "group": "Крепеж",
+    "price": 3439.0,
+    "weight": 12.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 35,
+  "fields": {
+    "name": "Тяж 1000 мм",
+    "group": "Крепеж",
+    "price": 310.0,
+    "weight": 1.53,
+    "space": 0.0,
+    "volume": 0.00081,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 36,
+  "fields": {
+    "name": "Тяж 1200 мм",
+    "group": "Крепеж",
+    "price": 372.0,
+    "weight": 1.82,
+    "space": 0.0,
+    "volume": 0.00097,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 37,
+  "fields": {
+    "name": "Тяж 1500 мм",
+    "group": "Крепеж",
+    "price": 465.0,
+    "weight": 2.3,
+    "space": 0.0,
+    "volume": 0.00121,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 38,
+  "fields": {
+    "name": "Тяж 2000 мм",
+    "group": "Крепеж",
+    "price": 620.0,
+    "weight": 3.06,
+    "space": 0.0,
+    "volume": 0.00162,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 39,
+  "fields": {
+    "name": "Тяж 3000 мм",
+    "group": "Крепеж",
+    "price": 930.0,
+    "weight": 4.6,
+    "space": 0.0,
+    "volume": 0.00243,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 40,
+  "fields": {
+    "name": "Тяж 4000 мм",
+    "group": "Крепеж",
+    "price": 1240.0,
+    "weight": 6.12,
+    "space": 0.0,
+    "volume": 0.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 41,
+  "fields": {
+    "name": "Тяж 6000 мм",
+    "group": "Крепеж",
+    "price": 1860.0,
+    "weight": 9.2,
+    "space": 0.0,
+    "volume": 0.0048,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 42,
+  "fields": {
+    "name": "Тяж 800 мм",
+    "group": "Крепеж",
+    "price": 248.0,
+    "weight": 1.22,
+    "space": 0.0,
+    "volume": 0.0007,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 43,
+  "fields": {
+    "name": "Хомут (контрфорса) с гайкой",
+    "group": "Крепеж",
+    "price": 449.0,
+    "weight": 1.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 44,
+  "fields": {
+    "name": "Хомут для строительных лесов поворотный",
+    "group": "Крепеж",
+    "price": 300.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 45,
+  "fields": {
+    "name": "Шайба",
+    "group": "Крепеж",
+    "price": 120.0,
+    "weight": 0.6,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 46,
+  "fields": {
+    "name": "Шкворень \"Т обр\"",
+    "group": "Крепеж",
+    "price": 650.0,
+    "weight": 0.6,
+    "space": 0.0,
+    "volume": 0.0007,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 47,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 1,00 м.",
+    "group": "Перекрытие",
+    "price": 850.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.02,
+    "length": 1.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 48,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 1,50 м.",
+    "group": "Перекрытие",
+    "price": 1275.0,
+    "weight": 7.0,
+    "space": 0.0,
+    "volume": 0.025,
+    "length": 1.5,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 49,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 2,00 м.",
+    "group": "Перекрытие",
+    "price": 1700.0,
+    "weight": 9.6,
+    "space": 0.0,
+    "volume": 0.035,
+    "length": 2.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 50,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 2,50 м.",
+    "group": "Перекрытие",
+    "price": 2125.0,
+    "weight": 12.0,
+    "space": 0.0,
+    "volume": 0.04,
+    "length": 2.5,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 51,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 3,00 м.",
+    "group": "Перекрытие",
+    "price": 2550.0,
+    "weight": 14.4,
+    "space": 0.0,
+    "volume": 0.05,
+    "length": 3.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 52,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 3,30 м.",
+    "group": "Перекрытие",
+    "price": 2805.0,
+    "weight": 16.0,
+    "space": 0.0,
+    "volume": 0.06,
+    "length": 3.3,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 53,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 3,90 м.",
+    "group": "Перекрытие",
+    "price": 3315.0,
+    "weight": 20.0,
+    "space": 0.0,
+    "volume": 0.07,
+    "length": 3.9,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 54,
+  "fields": {
+    "name": "Балка деревянная (Ригель) 4,50 м.",
+    "group": "Перекрытие",
+    "price": 3825.0,
+    "weight": 21.6,
+    "space": 0.0,
+    "volume": 0.075,
+    "length": 4.5,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 55,
+  "fields": {
+    "name": "Балка деревянная (Ригель) PERI 2,45 м.",
+    "group": "Перекрытие",
+    "price": 2425.5,
+    "weight": 12.25,
+    "space": 0.0,
+    "volume": 0.04,
+    "length": 2.45,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 56,
+  "fields": {
+    "name": "Балка деревянная (Ригель) PERI 2,90 м.",
+    "group": "Перекрытие",
+    "price": 2871.0,
+    "weight": 15.95,
+    "space": 0.0,
+    "volume": 0.046,
+    "length": 2.9,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 57,
+  "fields": {
+    "name": "Балка деревянная (Ригель) PERI 3,3 м.",
+    "group": "Перекрытие",
+    "price": 3267.0,
+    "weight": 18.15,
+    "space": 0.0,
+    "volume": 0.053,
+    "length": 3.3,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 58,
+  "fields": {
+    "name": "Балка деревянная (Ригель) PERI 3,9 м.",
+    "group": "Перекрытие",
+    "price": 3861.0,
+    "weight": 21.45,
+    "space": 0.0,
+    "volume": 0.063,
+    "length": 3.9,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 59,
+  "fields": {
+    "name": "Кассета для стоек телескопических",
+    "group": "Перекрытие",
+    "price": 10000.0,
+    "weight": 30.0,
+    "space": 0.0,
+    "volume": 0.05,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 60,
+  "fields": {
+    "name": "Стойка телескопическая 1,00-1,60 м. (70)",
+    "group": "Перекрытие",
+    "price": 1949.0,
+    "weight": 7.0,
+    "space": 0.0,
+    "volume": 0.02,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 61,
+  "fields": {
+    "name": "Стойка телескопическая 1,15-2,00 м. (70)",
+    "group": "Перекрытие",
+    "price": 2150.0,
+    "weight": 8.0,
+    "space": 0.0,
+    "volume": 0.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 62,
+  "fields": {
+    "name": "Стойка телескопическая 1,45-2,55 м. (70)",
+    "group": "Перекрытие",
+    "price": 2350.0,
+    "weight": 9.0,
+    "space": 0.0,
+    "volume": 0.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 63,
+  "fields": {
+    "name": "Стойка телескопическая 1,75-3,10 м. (70)",
+    "group": "Перекрытие",
+    "price": 2566.0,
+    "weight": 11.0,
+    "space": 0.0,
+    "volume": 0.02,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 64,
+  "fields": {
+    "name": "Стойка телескопическая 2,05-3,70 м. (70)",
+    "group": "Перекрытие",
+    "price": 2874.0,
+    "weight": 12.0,
+    "space": 0.0,
+    "volume": 0.021,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 65,
+  "fields": {
+    "name": "Стойка телескопическая 2,30-4,00 м. (70)",
+    "group": "Перекрытие",
+    "price": 3361.0,
+    "weight": 14.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 66,
+  "fields": {
+    "name": "Стойка телескопическая 2,35-4,50 м. (70)",
+    "group": "Перекрытие",
+    "price": 3499.0,
+    "weight": 15.0,
+    "space": 0.0,
+    "volume": 0.024,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 67,
+  "fields": {
+    "name": "Стойка телескопическая 2,50-4,20 м. (70)",
+    "group": "Перекрытие",
+    "price": 3361.0,
+    "weight": 14.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 68,
+  "fields": {
+    "name": "Стойка телескопическая 2,55-4,20 м.Усиленная  (70)",
+    "group": "Перекрытие",
+    "price": 3499.0,
+    "weight": 15.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 69,
+  "fields": {
+    "name": "Стойка телескопическая 2,80-4,50 м. (70)",
+    "group": "Перекрытие",
+    "price": 3499.0,
+    "weight": 18.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 70,
+  "fields": {
+    "name": "Стойка телескопическая 3,10-4,90 м. (70)",
+    "group": "Перекрытие",
+    "price": 4135.0,
+    "weight": 19.0,
+    "space": 0.0,
+    "volume": 0.024,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 71,
+  "fields": {
+    "name": "Тренога",
+    "group": "Перекрытие",
+    "price": 805.0,
+    "weight": 5.1,
+    "space": 0.0,
+    "volume": 0.011,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 72,
+  "fields": {
+    "name": "Тренога низкая",
+    "group": "Перекрытие",
+    "price": 1250.0,
+    "weight": 5.1,
+    "space": 0.0,
+    "volume": 0.011,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 73,
+  "fields": {
+    "name": "Унивилка",
+    "group": "Перекрытие",
+    "price": 325.0,
+    "weight": 1.9,
+    "space": 0.0,
+    "volume": 0.008,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 74,
+  "fields": {
+    "name": "Фанера б/у  кв. метры",
+    "group": "Перекрытие",
+    "price": 800.0,
+    "weight": 13.0,
+    "space": 1.0,
+    "volume": 0.018,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 75,
+  "fields": {
+    "name": "Фанера лам. 1,22х2,44  т. 18 б/у",
+    "group": "Перекрытие",
+    "price": 4900.0,
+    "weight": 36.5,
+    "space": 0.0,
+    "volume": 0.0535824,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 76,
+  "fields": {
+    "name": "Фанера лам. 1,22х2,44  т. 18 мм.",
+    "group": "Перекрытие",
+    "price": 4900.0,
+    "weight": 36.5,
+    "space": 0.0,
+    "volume": 0.0535824,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 77,
+  "fields": {
+    "name": "Фанера лам. 1,22х2,44  т. 18 мм. 1-4",
+    "group": "Перекрытие",
+    "price": 4900.0,
+    "weight": 36.5,
+    "space": 0.0,
+    "volume": 0.0535824,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 78,
+  "fields": {
+    "name": "Винтовая пара",
+    "group": "Продажа",
+    "price": 6467.0,
+    "weight": 4.5,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 79,
+  "fields": {
+    "name": "Гаечный ключ для пружинного зажима",
+    "group": "Продажа",
+    "price": 3640.0,
+    "weight": 3.0,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 80,
+  "fields": {
+    "name": "Гайка распалубочного угла",
+    "group": "Продажа",
+    "price": 1933.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 81,
+  "fields": {
+    "name": "Зажим пружинный HIT",
+    "group": "Продажа",
+    "price": 133.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 82,
+  "fields": {
+    "name": "Оголовник подкоса СТ",
+    "group": "Продажа",
+    "price": 400.0,
+    "weight": 0.001,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 83,
+  "fields": {
+    "name": "Ремень стяжной 5,00 т. 10 м.",
+    "group": "Продажа",
+    "price": 1500.0,
+    "weight": 1.0,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 84,
+  "fields": {
+    "name": "Россия Стойка телескопическая 1,75-3,10 м.",
+    "group": "Продажа",
+    "price": 2166.0,
+    "weight": 11.0,
+    "space": 0.0,
+    "volume": 0.02,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 85,
+  "fields": {
+    "name": "Россия Стойка телескопическая 2,05-3,70 м.",
+    "group": "Продажа",
+    "price": 2474.0,
+    "weight": 12.0,
+    "space": 0.0,
+    "volume": 0.021,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 86,
+  "fields": {
+    "name": "Россия Стойка телескопическая 2,30-4,00 м.",
+    "group": "Продажа",
+    "price": 2761.0,
+    "weight": 14.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 2.4,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 87,
+  "fields": {
+    "name": "Россия Стойка телескопическая 2,50-4,20 м.",
+    "group": "Продажа",
+    "price": 2761.0,
+    "weight": 14.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 2.4,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 88,
+  "fields": {
+    "name": "Россия Стойка телескопическая 2,80-4,50 м.",
+    "group": "Продажа",
+    "price": 3099.0,
+    "weight": 18.0,
+    "space": 0.0,
+    "volume": 0.022,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 89,
+  "fields": {
+    "name": "Россия Стойка телескопическая 3,10-4,90 м.",
+    "group": "Продажа",
+    "price": 3635.0,
+    "weight": 19.0,
+    "space": 0.0,
+    "volume": 0.024,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 90,
+  "fields": {
+    "name": "Россия Тренога",
+    "group": "Продажа",
+    "price": 805.0,
+    "weight": 5.1,
+    "space": 0.01,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 91,
+  "fields": {
+    "name": "Россия Тренога усиленная",
+    "group": "Продажа",
+    "price": 805.0,
+    "weight": 10.0,
+    "space": 0.01,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 92,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,75х3,00 (17/150/283)",
+    "group": "Продажа",
+    "price": 27756.0,
+    "weight": 72.0,
+    "space": 2.25,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 93,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,75х3,00 (38)",
+    "group": "Продажа",
+    "price": 27756.0,
+    "weight": 72.0,
+    "space": 2.25,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 94,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,80х3,00 (17/150/283)",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 90.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 95,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,80х3,00 (34/150/266)",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 90.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 96,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,80х3,00 (39/150/261)",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 90.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 97,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,80х3,00 (40/150/260)",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 90.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 98,
+  "fields": {
+    "name": "Россия Щит Ал универсал 0,90х3,00 (34/150/266)",
+    "group": "Продажа",
+    "price": 34413.0,
+    "weight": 84.0,
+    "space": 2.7,
+    "volume": 0.38,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 99,
+  "fields": {
+    "name": "Россия Щит Ал универсал 1,20х3,00 (17/150/283)",
+    "group": "Продажа",
+    "price": 41156.0,
+    "weight": 126.0,
+    "space": 3.6,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 100,
+  "fields": {
+    "name": "Россия Щит Колонн Ст универсальный 0,60х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 28320.0,
+    "weight": 95.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 101,
+  "fields": {
+    "name": "Россия Щит Колонн Ст универсальный 0,80х3,00",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 120.0,
+    "space": 2.4,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 102,
+  "fields": {
+    "name": "Россия Щит Колонн Ст универсальный 0,90х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 34212.0,
+    "weight": 125.0,
+    "space": 2.7,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 103,
+  "fields": {
+    "name": "Россия Щит Колонн Ст универсальный 1,00х3,00",
+    "group": "Продажа",
+    "price": 36698.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 104,
+  "fields": {
+    "name": "Россия Щит Колонн Ст универсальный 1,00х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 36698.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 105,
+  "fields": {
+    "name": "Россия Щит Ст линейный 0,60х3,00 (35/150/256)",
+    "group": "Продажа",
+    "price": 22794.0,
+    "weight": 93.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.359Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 106,
+  "fields": {
+    "name": "Россия Щит Ст линейный 0,70х3,00 (30/90/210/270)",
+    "group": "Продажа",
+    "price": 24606.0,
+    "weight": 101.0,
+    "space": 2.1,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 107,
+  "fields": {
+    "name": "Россия Щит Ст линейный 0,70х3,00 (35/150/256)",
+    "group": "Продажа",
+    "price": 24606.0,
+    "weight": 101.0,
+    "space": 2.1,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 108,
+  "fields": {
+    "name": "Россия Щит Ст линейный 1,00х3,00 (35/150/256)",
+    "group": "Продажа",
+    "price": 29283.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 109,
+  "fields": {
+    "name": "Россия Щит Ст линейный 1,10х3,00 (28/88/243)",
+    "group": "Продажа",
+    "price": 31009.0,
+    "weight": 135.0,
+    "space": 3.3,
+    "volume": 0.39,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 110,
+  "fields": {
+    "name": "Россия Щит Ст линейный 1,20х3,00 (35/150/256)",
+    "group": "Продажа",
+    "price": 34474.0,
+    "weight": 148.0,
+    "space": 3.6,
+    "volume": 0.43,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 111,
+  "fields": {
+    "name": "Россия Щит Ст универсальный 0,50х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 24520.0,
+    "weight": 85.0,
+    "space": 1.5,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 112,
+  "fields": {
+    "name": "Россия Щит Ст универсальный 0,70х3,00 (30/90/210/270)",
+    "group": "Продажа",
+    "price": 30423.0,
+    "weight": 101.0,
+    "space": 2.25,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 113,
+  "fields": {
+    "name": "Россия Щит Ст универсальный 0,80х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 32273.0,
+    "weight": 120.0,
+    "space": 2.4,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 114,
+  "fields": {
+    "name": "Россия Щит Ст универсальный 1,00х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 36698.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 115,
+  "fields": {
+    "name": "Россия Щит Ст универсальный 1,10х3,00 (35/95/205/265,5)",
+    "group": "Продажа",
+    "price": 38150.0,
+    "weight": 141.0,
+    "space": 3.3,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 116,
+  "fields": {
+    "name": "Трансформатор прогреваТСДЗ-63/0,38",
+    "group": "Продажа",
+    "price": 70000.0,
+    "weight": 310.0,
+    "space": 0.0,
+    "volume": 1.23,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 117,
+  "fields": {
+    "name": "Болт 20х130",
+    "group": "Прочее",
+    "price": 125.0,
+    "weight": 0.01,
+    "space": 0.01,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 118,
+  "fields": {
+    "name": "Каркас окр. Нижнее основание подкоса(2,9 м./RAL3003)",
+    "group": "Прочее",
+    "price": 3000.0,
+    "weight": 15.0,
+    "space": 0.1,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 119,
+  "fields": {
+    "name": "Кронштейн подмостей под алюминий",
+    "group": "Прочее",
+    "price": 2590.0,
+    "weight": 5.7,
+    "space": 0.0,
+    "volume": 0.152,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 120,
+  "fields": {
+    "name": "Оголовник подкоса СТ(А)",
+    "group": "Прочее",
+    "price": 400.0,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 121,
+  "fields": {
+    "name": "Рама лесов строительных",
+    "group": "Прочее",
+    "price": 1000.0,
+    "weight": 15.0,
+    "space": 0.01,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 122,
+  "fields": {
+    "name": "Рюмка для бетона 0,80 м куб",
+    "group": "Прочее",
+    "price": 50500.0,
+    "weight": 500.0,
+    "space": 0.0,
+    "volume": 3.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 123,
+  "fields": {
+    "name": "Рюмка для бетона 1 м куб",
+    "group": "Прочее",
+    "price": 50500.0,
+    "weight": 600.0,
+    "space": 0.0,
+    "volume": 3.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 124,
+  "fields": {
+    "name": "Связь двойная для лесов строительных",
+    "group": "Прочее",
+    "price": 500.0,
+    "weight": 6.0,
+    "space": 0.01,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 125,
+  "fields": {
+    "name": "Связь одинарная для лесов строительных",
+    "group": "Прочее",
+    "price": 500.0,
+    "weight": 3.0,
+    "space": 0.01,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 126,
+  "fields": {
+    "name": "Серьга для стойки",
+    "group": "Прочее",
+    "price": 150.0,
+    "weight": 0.001,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 127,
+  "fields": {
+    "name": "Станок рубочный",
+    "group": "Прочее",
+    "price": 120000.0,
+    "weight": 100.0,
+    "space": 0.1,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 128,
+  "fields": {
+    "name": "Трап для лесов строительных",
+    "group": "Прочее",
+    "price": 1000.0,
+    "weight": 40.0,
+    "space": 0.2,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 129,
+  "fields": {
+    "name": "Фанера лам. ремонт  18 мм. кв.м. (не продавать !!!!)",
+    "group": "Прочее",
+    "price": 2666.66,
+    "weight": 45.0,
+    "space": 1.0,
+    "volume": 0.018,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 130,
+  "fields": {
+    "name": "Шайба 20",
+    "group": "Прочее",
+    "price": 10.0,
+    "weight": 0.1,
+    "space": 0.001,
+    "volume": 0.01,
+    "length": 0.0001,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 131,
+  "fields": {
+    "name": "ШУР штанга (3,0/ral3003)",
+    "group": "Прочее",
+    "price": 3150.0,
+    "weight": 0.1,
+    "space": 0.1,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 132,
+  "fields": {
+    "name": "Щит радиусный R200 H1000 (180 град.)",
+    "group": "Прочее",
+    "price": 19032.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 133,
+  "fields": {
+    "name": "Щит радиусный R200 H2500 (180 град.)",
+    "group": "Прочее",
+    "price": 31980.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 134,
+  "fields": {
+    "name": "Щит радиусный R200 H3000 (180 град.)",
+    "group": "Прочее",
+    "price": 37310.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 135,
+  "fields": {
+    "name": "Щит радиусный R400 H1000 (180 град.)",
+    "group": "Прочее",
+    "price": 26611.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 136,
+  "fields": {
+    "name": "Щит радиусный R400 H2500 (180 град.)",
+    "group": "Прочее",
+    "price": 46638.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 137,
+  "fields": {
+    "name": "Щит радиусный R400 H3000 (180 град.)",
+    "group": "Прочее",
+    "price": 55166.0,
+    "weight": 1.0,
+    "space": 1.0,
+    "volume": 1.0,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 138,
+  "fields": {
+    "name": "ЩУР скоба",
+    "group": "Прочее",
+    "price": 850.0,
+    "weight": 0.2,
+    "space": 0.001,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 139,
+  "fields": {
+    "name": "Заглушка пробка п22-Н конусная",
+    "group": "Расходники",
+    "price": 1.0,
+    "weight": 0.001,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 140,
+  "fields": {
+    "name": "Защитный колпачок на арматуру 8-16 мм.",
+    "group": "Расходники",
+    "price": 5.2,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 141,
+  "fields": {
+    "name": "Канистра 20 литров",
+    "group": "Расходники",
+    "price": 75.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 142,
+  "fields": {
+    "name": "Конус ПВХ (d.22)",
+    "group": "Расходники",
+    "price": 1.5,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 143,
+  "fields": {
+    "name": "Опора под стойку многоуровневую",
+    "group": "Расходники",
+    "price": 4.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 144,
+  "fields": {
+    "name": "Смазка Эмульсол-ЭКС-А-ТК (зимний -30), 1 литр",
+    "group": "Расходники",
+    "price": 100.0,
+    "weight": 0.9,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 145,
+  "fields": {
+    "name": "Смазка Эмульсол-ЭКС-А-ТК (зимний -30), 200 литров",
+    "group": "Расходники",
+    "price": 20000.0,
+    "weight": 175.0,
+    "space": 0.0,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 146,
+  "fields": {
+    "name": "Смазка Эмульсол-ЭКС-А-ТК (летний), 200 литров",
+    "group": "Расходники",
+    "price": 15900.0,
+    "weight": 175.0,
+    "space": 0.0,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 147,
+  "fields": {
+    "name": "Смазка Эмульсол-ЭКС-А-ТК, (10 литров)",
+    "group": "Расходники",
+    "price": 1000.0,
+    "weight": 9.0,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 148,
+  "fields": {
+    "name": "Смазка Эмульсол-ЭКС-А-ТК, (20 литров)",
+    "group": "Расходники",
+    "price": 2000.0,
+    "weight": 18.0,
+    "space": 0.0,
+    "volume": 0.02,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 149,
+  "fields": {
+    "name": "Стойка многоуровневая 35/45",
+    "group": "Расходники",
+    "price": 7.0,
+    "weight": 0.1,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 150,
+  "fields": {
+    "name": "Трубка ПВХ (22/1,50/3,00 м)",
+    "group": "Расходники",
+    "price": 100.0,
+    "weight": 0.5,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 151,
+  "fields": {
+    "name": "Фиксатор бабочка 25/40",
+    "group": "Расходники",
+    "price": 2.6,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 152,
+  "fields": {
+    "name": "Фиксатор для сыпучих поверхностей (250)",
+    "group": "Расходники",
+    "price": 3.5,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 153,
+  "fields": {
+    "name": "Фиксатор звездочка 40 мм",
+    "group": "Расходники",
+    "price": 3.95,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 154,
+  "fields": {
+    "name": "Фиксатор звездочка 50 мм",
+    "group": "Расходники",
+    "price": 4.95,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 155,
+  "fields": {
+    "name": "Фиксатор звездочка ФЗ 25 (25,6-20)",
+    "group": "Расходники",
+    "price": 2.5,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 156,
+  "fields": {
+    "name": "Фиксатор звездочка ФЗ 30 (30.6-20)",
+    "group": "Расходники",
+    "price": 2.8,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 157,
+  "fields": {
+    "name": "Фиксатор звездочка ФЗ 35 (35,4-20)",
+    "group": "Расходники",
+    "price": 3.5,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 158,
+  "fields": {
+    "name": "Фиксатор перевертыш (кубик)20/25/30/35.4-18)АН мм",
+    "group": "Расходники",
+    "price": 3.0,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 1e-05,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 159,
+  "fields": {
+    "name": "Фиксатор перевертыш (кубик)35/40/45/50 мм",
+    "group": "Расходники",
+    "price": 3.5,
+    "weight": 0.0018,
+    "space": 0.0,
+    "volume": 0.001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 160,
+  "fields": {
+    "name": "Фиксатор перевертыш (кубик)60/70/80 мм",
+    "group": "Расходники",
+    "price": 6.0,
+    "weight": 0.001,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 161,
+  "fields": {
+    "name": "Фиксатор перевертыш (стойка)10/15/20/25 мм",
+    "group": "Расходники",
+    "price": 2.5,
+    "weight": 0.01,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 162,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,60х1,50",
+    "group": "СТАЛЬ",
+    "price": 18755.0,
+    "weight": 55.0,
+    "space": 0.9,
+    "volume": 0.11,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 163,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,60х3,00",
+    "group": "СТАЛЬ",
+    "price": 24150.0,
+    "weight": 85.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 164,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,70х3,00",
+    "group": "СТАЛЬ",
+    "price": 25690.0,
+    "weight": 89.0,
+    "space": 2.1,
+    "volume": 0.252,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 165,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,75х1,50",
+    "group": "СТАЛЬ",
+    "price": 20104.0,
+    "weight": 74.0,
+    "space": 1.13,
+    "volume": 0.14,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 166,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,75х3,00",
+    "group": "СТАЛЬ",
+    "price": 27756.0,
+    "weight": 93.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 167,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,80х3,00",
+    "group": "СТАЛЬ",
+    "price": 32273.0,
+    "weight": 120.0,
+    "space": 2.4,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 168,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,90х1,20",
+    "group": "СТАЛЬ",
+    "price": 20180.0,
+    "weight": 87.0,
+    "space": 1.35,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 169,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,90х1,50",
+    "group": "СТАЛЬ",
+    "price": 22013.0,
+    "weight": 87.0,
+    "space": 1.35,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 170,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 0,90х3,00",
+    "group": "СТАЛЬ",
+    "price": 34413.0,
+    "weight": 127.0,
+    "space": 2.7,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 171,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 1,00х3,00",
+    "group": "СТАЛЬ",
+    "price": 36698.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 172,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 1,20х1,50",
+    "group": "СТАЛЬ",
+    "price": 24332.0,
+    "weight": 98.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 173,
+  "fields": {
+    "name": "Щит Колонн Ст универсальный 1,20х3,00",
+    "group": "СТАЛЬ",
+    "price": 41156.0,
+    "weight": 156.0,
+    "space": 3.6,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 174,
+  "fields": {
+    "name": "Щит Ст компенсатор 3 м. (60-300 мм)",
+    "group": "СТАЛЬ",
+    "price": 22813.0,
+    "weight": 93.0,
+    "space": 1.0,
+    "volume": 0.12,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 175,
+  "fields": {
+    "name": "Щит Ст линейный 0,20х3,00",
+    "group": "СТАЛЬ",
+    "price": 16523.0,
+    "weight": 35.0,
+    "space": 0.6,
+    "volume": 0.07,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 176,
+  "fields": {
+    "name": "Щит Ст линейный 0,25х3,00",
+    "group": "СТАЛЬ",
+    "price": 17823.0,
+    "weight": 59.0,
+    "space": 0.75,
+    "volume": 0.09,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 177,
+  "fields": {
+    "name": "Щит Ст линейный 0,30х1,50",
+    "group": "СТАЛЬ",
+    "price": 9880.0,
+    "weight": 42.0,
+    "space": 0.45,
+    "volume": 0.054,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 178,
+  "fields": {
+    "name": "Щит Ст линейный 0,30х3,00",
+    "group": "СТАЛЬ",
+    "price": 18490.0,
+    "weight": 64.0,
+    "space": 0.9,
+    "volume": 0.11,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 179,
+  "fields": {
+    "name": "Щит Ст линейный 0,30х3,30",
+    "group": "СТАЛЬ",
+    "price": 18490.0,
+    "weight": 65.0,
+    "space": 0.9,
+    "volume": 0.11,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 180,
+  "fields": {
+    "name": "Щит Ст линейный 0,35х3,00",
+    "group": "СТАЛЬ",
+    "price": 19157.0,
+    "weight": 68.0,
+    "space": 1.05,
+    "volume": 0.126,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 181,
+  "fields": {
+    "name": "Щит Ст линейный 0,40х1,50",
+    "group": "СТАЛЬ",
+    "price": 10125.0,
+    "weight": 52.0,
+    "space": 0.6,
+    "volume": 0.072,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 182,
+  "fields": {
+    "name": "Щит Ст линейный 0,40х3,00",
+    "group": "СТАЛЬ",
+    "price": 19825.0,
+    "weight": 73.0,
+    "space": 1.2,
+    "volume": 0.14,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 183,
+  "fields": {
+    "name": "Щит Ст линейный 0,45х3,00",
+    "group": "СТАЛЬ",
+    "price": 20292.0,
+    "weight": 79.0,
+    "space": 1.35,
+    "volume": 0.162,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 184,
+  "fields": {
+    "name": "Щит Ст линейный 0,50х1,50",
+    "group": "СТАЛЬ",
+    "price": 10980.0,
+    "weight": 62.0,
+    "space": 0.75,
+    "volume": 0.09,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 185,
+  "fields": {
+    "name": "Щит Ст линейный 0,50х3,00",
+    "group": "СТАЛЬ",
+    "price": 21159.0,
+    "weight": 82.0,
+    "space": 1.5,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 186,
+  "fields": {
+    "name": "Щит Ст линейный 0,51х3,00",
+    "group": "СТАЛЬ",
+    "price": 21159.0,
+    "weight": 82.0,
+    "space": 1.5,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 187,
+  "fields": {
+    "name": "Щит Ст линейный 0,55х3,00",
+    "group": "СТАЛЬ",
+    "price": 21826.0,
+    "weight": 87.0,
+    "space": 1.65,
+    "volume": 0.198,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 188,
+  "fields": {
+    "name": "Щит Ст линейный 0,60х1,50",
+    "group": "СТАЛЬ",
+    "price": 12130.0,
+    "weight": 55.0,
+    "space": 0.9,
+    "volume": 0.108,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 189,
+  "fields": {
+    "name": "Щит Ст линейный 0,60х3,00",
+    "group": "СТАЛЬ",
+    "price": 22794.0,
+    "weight": 93.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 190,
+  "fields": {
+    "name": "Щит Ст линейный 0,65х3,00",
+    "group": "СТАЛЬ",
+    "price": 23938.0,
+    "weight": 95.0,
+    "space": 1.95,
+    "volume": 0.23,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 191,
+  "fields": {
+    "name": "Щит Ст линейный 0,70х1,50",
+    "group": "СТАЛЬ",
+    "price": 12980.0,
+    "weight": 62.0,
+    "space": 1.05,
+    "volume": 0.126,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 192,
+  "fields": {
+    "name": "Щит Ст линейный 0,70х3,00",
+    "group": "СТАЛЬ",
+    "price": 24606.0,
+    "weight": 101.0,
+    "space": 2.1,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 193,
+  "fields": {
+    "name": "Щит Ст линейный 0,75х1,50",
+    "group": "СТАЛЬ",
+    "price": 13690.0,
+    "weight": 66.0,
+    "space": 1.125,
+    "volume": 0.135,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 194,
+  "fields": {
+    "name": "Щит Ст линейный 0,75х3,00",
+    "group": "СТАЛЬ",
+    "price": 25273.0,
+    "weight": 108.0,
+    "space": 2.25,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 195,
+  "fields": {
+    "name": "Щит Ст линейный 0,80х1,50",
+    "group": "СТАЛЬ",
+    "price": 15120.0,
+    "weight": 72.0,
+    "space": 1.2,
+    "volume": 0.144,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 196,
+  "fields": {
+    "name": "Щит Ст линейный 0,80х3,00",
+    "group": "СТАЛЬ",
+    "price": 25987.0,
+    "weight": 110.0,
+    "space": 2.4,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 197,
+  "fields": {
+    "name": "Щит Ст линейный 0,85х3,00",
+    "group": "СТАЛЬ",
+    "price": 26607.0,
+    "weight": 122.0,
+    "space": 2.55,
+    "volume": 0.31,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 198,
+  "fields": {
+    "name": "Щит Ст линейный 0,90х1,20",
+    "group": "СТАЛЬ",
+    "price": 17450.0,
+    "weight": 58.0,
+    "space": 1.08,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 199,
+  "fields": {
+    "name": "Щит Ст линейный 0,90х1,50",
+    "group": "СТАЛЬ",
+    "price": 22601.0,
+    "weight": 68.0,
+    "space": 1.35,
+    "volume": 0.162,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 200,
+  "fields": {
+    "name": "Щит Ст линейный 0,90х3,00",
+    "group": "СТАЛЬ",
+    "price": 27934.0,
+    "weight": 121.0,
+    "space": 2.7,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 201,
+  "fields": {
+    "name": "Щит Ст линейный 0,95х3,00",
+    "group": "СТАЛЬ",
+    "price": 28618.0,
+    "weight": 132.0,
+    "space": 2.85,
+    "volume": 0.342,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 202,
+  "fields": {
+    "name": "Щит Ст линейный 1,00х1,50",
+    "group": "СТАЛЬ",
+    "price": 18980.0,
+    "weight": 72.0,
+    "space": 1.5,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 203,
+  "fields": {
+    "name": "Щит Ст линейный 1,00х3,00",
+    "group": "СТАЛЬ",
+    "price": 29283.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 204,
+  "fields": {
+    "name": "Щит Ст линейный 1,10х3,00",
+    "group": "СТАЛЬ",
+    "price": 31009.0,
+    "weight": 135.0,
+    "space": 3.3,
+    "volume": 0.39,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 205,
+  "fields": {
+    "name": "Щит Ст линейный 1,15х3,00",
+    "group": "СТАЛЬ",
+    "price": 31100.0,
+    "weight": 140.0,
+    "space": 3.45,
+    "volume": 0.41,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 206,
+  "fields": {
+    "name": "Щит Ст линейный 1,20х1,20",
+    "group": "СТАЛЬ",
+    "price": 18980.0,
+    "weight": 89.0,
+    "space": 1.8,
+    "volume": 0.41,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 207,
+  "fields": {
+    "name": "Щит Ст линейный 1,20х1,50",
+    "group": "СТАЛЬ",
+    "price": 20120.0,
+    "weight": 89.0,
+    "space": 1.8,
+    "volume": 0.216,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 208,
+  "fields": {
+    "name": "Щит Ст линейный 1,20х3,00",
+    "group": "СТАЛЬ",
+    "price": 34474.0,
+    "weight": 148.0,
+    "space": 3.6,
+    "volume": 0.43,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 209,
+  "fields": {
+    "name": "Щит Ст линейный 1,20х3,30",
+    "group": "СТАЛЬ",
+    "price": 35120.0,
+    "weight": 150.0,
+    "space": 3.84,
+    "volume": 0.46,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 210,
+  "fields": {
+    "name": "Щит Ст угол внутренний 0,25х0,25х1,50",
+    "group": "СТАЛЬ",
+    "price": 15003.0,
+    "weight": 66.0,
+    "space": 0.75,
+    "volume": 0.09,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 211,
+  "fields": {
+    "name": "Щит Ст угол внутренний 0,25х0,25х3,00",
+    "group": "СТАЛЬ",
+    "price": 19460.0,
+    "weight": 87.0,
+    "space": 1.5,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 212,
+  "fields": {
+    "name": "Щит Ст угол внутренний 0,30х0,30х1,50",
+    "group": "СТАЛЬ",
+    "price": 20201.0,
+    "weight": 78.0,
+    "space": 0.9,
+    "volume": 0.108,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 213,
+  "fields": {
+    "name": "Щит Ст угол внутренний 0,30х0,30х3,00",
+    "group": "СТАЛЬ",
+    "price": 25667.0,
+    "weight": 94.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 214,
+  "fields": {
+    "name": "Щит Ст угол внутренний 0,50х0,50х3,00",
+    "group": "СТАЛЬ",
+    "price": 28616.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 215,
+  "fields": {
+    "name": "Щит Ст угол наружный 0,12х0,12х1,50",
+    "group": "СТАЛЬ",
+    "price": 5140.0,
+    "weight": 28.0,
+    "space": 0.25,
+    "volume": 0.03,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 216,
+  "fields": {
+    "name": "Щит Ст угол наружный 0,12х0,12х3,00",
+    "group": "СТАЛЬ",
+    "price": 10920.0,
+    "weight": 45.0,
+    "space": 0.5,
+    "volume": 0.06,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 217,
+  "fields": {
+    "name": "Щит Ст угол наружный 0,50х0,50х3,00",
+    "group": "СТАЛЬ",
+    "price": 34871.0,
+    "weight": 135.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 218,
+  "fields": {
+    "name": "Щит Ст угол распалубочный-120 0,30х0,30*3 ST",
+    "group": "СТАЛЬ",
+    "price": 54677.0,
+    "weight": 180.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 219,
+  "fields": {
+    "name": "Щит Ст угол распалубочный-140 0,30х0,30*3 ST",
+    "group": "СТАЛЬ",
+    "price": 54677.0,
+    "weight": 190.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 220,
+  "fields": {
+    "name": "Щит Ст универсальный 0,60х1,50",
+    "group": "СТАЛЬ",
+    "price": 18090.0,
+    "weight": 55.0,
+    "space": 0.9,
+    "volume": 0.108,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 221,
+  "fields": {
+    "name": "Щит Ст универсальный 0,60х3,00",
+    "group": "СТАЛЬ",
+    "price": 28486.0,
+    "weight": 90.0,
+    "space": 1.8,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 222,
+  "fields": {
+    "name": "Щит Ст универсальный 0,70х3,00",
+    "group": "СТАЛЬ",
+    "price": 30423.0,
+    "weight": 101.0,
+    "space": 2.25,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 223,
+  "fields": {
+    "name": "Щит Ст универсальный 0,75х1,50",
+    "group": "СТАЛЬ",
+    "price": 19400.0,
+    "weight": 74.0,
+    "space": 1.125,
+    "volume": 0.135,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 224,
+  "fields": {
+    "name": "Щит Ст универсальный 0,75х3,00",
+    "group": "СТАЛЬ",
+    "price": 27756.0,
+    "weight": 93.0,
+    "space": 1.8,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 225,
+  "fields": {
+    "name": "Щит Ст универсальный 0,80х3,00",
+    "group": "СТАЛЬ",
+    "price": 32273.0,
+    "weight": 120.0,
+    "space": 2.4,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 226,
+  "fields": {
+    "name": "Щит Ст универсальный 0,80х3,30",
+    "group": "СТАЛЬ",
+    "price": 32273.0,
+    "weight": 125.0,
+    "space": 2.64,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 227,
+  "fields": {
+    "name": "Щит Ст универсальный 0,90х1,50",
+    "group": "СТАЛЬ",
+    "price": 22013.0,
+    "weight": 87.0,
+    "space": 1.35,
+    "volume": 0.162,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 228,
+  "fields": {
+    "name": "Щит Ст универсальный 0,90х3,00",
+    "group": "СТАЛЬ",
+    "price": 32670.0,
+    "weight": 118.0,
+    "space": 2.7,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 229,
+  "fields": {
+    "name": "Щит Ст универсальный 0,95х3,00",
+    "group": "СТАЛЬ",
+    "price": 35640.0,
+    "weight": 128.0,
+    "space": 2.85,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 230,
+  "fields": {
+    "name": "Щит Ст универсальный 1,00х3,00",
+    "group": "СТАЛЬ",
+    "price": 36698.0,
+    "weight": 130.0,
+    "space": 3.0,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 231,
+  "fields": {
+    "name": "Щит Ст универсальный 1,10х3,00",
+    "group": "СТАЛЬ",
+    "price": 38682.0,
+    "weight": 143.0,
+    "space": 3.3,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 232,
+  "fields": {
+    "name": "Щит Ст универсальный 1,20х1,50",
+    "group": "СТАЛЬ",
+    "price": 23490.0,
+    "weight": 98.0,
+    "space": 1.8,
+    "volume": 0.216,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 233,
+  "fields": {
+    "name": "Щит Ст универсальный 1,20х3,00",
+    "group": "СТАЛЬ",
+    "price": 41156.0,
+    "weight": 156.0,
+    "space": 3.6,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 234,
+  "fields": {
+    "name": "Щит Ст шарнирный 0,10х0,10х3,00",
+    "group": "СТАЛЬ",
+    "price": 23277.0,
+    "weight": 64.0,
+    "space": 0.5,
+    "volume": 0.06,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 235,
+  "fields": {
+    "name": "Щит Ст шарнирный 0,30х0,30х3,00",
+    "group": "СТАЛЬ",
+    "price": 28422.0,
+    "weight": 104.0,
+    "space": 1.8,
+    "volume": 0.65,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 236,
+  "fields": {
+    "name": "Вертикаль 1000 (90)",
+    "group": "Структура",
+    "price": 1655.0,
+    "weight": 4.5,
+    "space": 0.0,
+    "volume": 0.005,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 237,
+  "fields": {
+    "name": "Вертикаль 1500 (90)",
+    "group": "Структура",
+    "price": 2426.0,
+    "weight": 6.8,
+    "space": 0.0,
+    "volume": 0.0075,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 238,
+  "fields": {
+    "name": "Вертикаль 2000 (90)",
+    "group": "Структура",
+    "price": 3151.0,
+    "weight": 9.2,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 239,
+  "fields": {
+    "name": "Вертикаль 500",
+    "group": "Структура",
+    "price": 1490.0,
+    "weight": 2.2,
+    "space": 0.0,
+    "volume": 0.005,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 240,
+  "fields": {
+    "name": "Винтовая опора (унивилка) 0,32",
+    "group": "Структура",
+    "price": 1483.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 241,
+  "fields": {
+    "name": "Винтовая опора (унивилка) 0,52",
+    "group": "Структура",
+    "price": 1483.0,
+    "weight": 6.0,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 242,
+  "fields": {
+    "name": "Винтовая опора (унивилка) 0,75",
+    "group": "Структура",
+    "price": 2276.0,
+    "weight": 7.6,
+    "space": 0.0,
+    "volume": 0.009,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 243,
+  "fields": {
+    "name": "Винтовая опора усиленная (унивилка) 0,75",
+    "group": "Структура",
+    "price": 2276.0,
+    "weight": 12.0,
+    "space": 0.00011,
+    "volume": 0.009,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 244,
+  "fields": {
+    "name": "Горизонталь 1005 кован",
+    "group": "Структура",
+    "price": 952.0,
+    "weight": 3.0,
+    "space": 0.0,
+    "volume": 0.003,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 245,
+  "fields": {
+    "name": "Горизонталь 1200 кован",
+    "group": "Структура",
+    "price": 1100.0,
+    "weight": 3.71,
+    "space": 0.0,
+    "volume": 0.003,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 246,
+  "fields": {
+    "name": "Горизонталь 1200 штамп",
+    "group": "Структура",
+    "price": 1100.0,
+    "weight": 3.6,
+    "space": 0.01,
+    "volume": 0.003,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 247,
+  "fields": {
+    "name": "Горизонталь 1250 кован (зел.)",
+    "group": "Структура",
+    "price": 1100.0,
+    "weight": 3.85,
+    "space": 0.0,
+    "volume": 0.01,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 248,
+  "fields": {
+    "name": "Горизонталь 1450 кован",
+    "group": "Структура",
+    "price": 1200.0,
+    "weight": 4.5,
+    "space": 0.0,
+    "volume": 0.003,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 249,
+  "fields": {
+    "name": "Горизонталь 1510 кован",
+    "group": "Структура",
+    "price": 1284.0,
+    "weight": 5.0,
+    "space": 0.0,
+    "volume": 0.004,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.360Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 250,
+  "fields": {
+    "name": "Горизонталь 2000 (137) кован",
+    "group": "Структура",
+    "price": 1620.0,
+    "weight": 6.8,
+    "space": 0.0,
+    "volume": 0.004,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 251,
+  "fields": {
+    "name": "Горизонталь 2000 (137) штамп",
+    "group": "Структура",
+    "price": 1620.0,
+    "weight": 6.8,
+    "space": 0.0,
+    "volume": 0.004,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 252,
+  "fields": {
+    "name": "Горизонталь 2015 (137) кован",
+    "group": "Структура",
+    "price": 1620.0,
+    "weight": 6.8,
+    "space": 0.0,
+    "volume": 0.004,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 253,
+  "fields": {
+    "name": "Горизонталь 800 кован",
+    "group": "Структура",
+    "price": 830.0,
+    "weight": 2.5,
+    "space": 0.0,
+    "volume": 0.0015,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 254,
+  "fields": {
+    "name": "Горизонталь 800 штамп",
+    "group": "Структура",
+    "price": 830.0,
+    "weight": 2.5,
+    "space": 0.0,
+    "volume": 0.0015,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 255,
+  "fields": {
+    "name": "Горизонталь 950 штамп",
+    "group": "Структура",
+    "price": 952.0,
+    "weight": 3.1,
+    "space": 0.0,
+    "volume": 0.0015,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 256,
+  "fields": {
+    "name": "Наконечник",
+    "group": "Структура",
+    "price": 180.0,
+    "weight": 0.4,
+    "space": 0.0,
+    "volume": 0.0001,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 257,
+  "fields": {
+    "name": "Становочная пята 0,35",
+    "group": "Структура",
+    "price": 1288.0,
+    "weight": 3.7,
+    "space": 0.0,
+    "volume": 0.0027,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 258,
+  "fields": {
+    "name": "Становочная пята 0,52",
+    "group": "Структура",
+    "price": 1288.0,
+    "weight": 4.6,
+    "space": 0.0,
+    "volume": 0.003,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 259,
+  "fields": {
+    "name": "Становочная пята 0,75",
+    "group": "Структура",
+    "price": 1622.0,
+    "weight": 6.2,
+    "space": 0.0,
+    "volume": 0.0038,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 260,
+  "fields": {
+    "name": "Угол Ал 0,14х0,14х1,50",
+    "group": "Углы",
+    "price": 6280.0,
+    "weight": 13.0,
+    "space": 0.42,
+    "volume": 0.06,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 261,
+  "fields": {
+    "name": "Угол Ал 0,14х0,14х2,10",
+    "group": "Углы",
+    "price": 7540.0,
+    "weight": 16.0,
+    "space": 0.58,
+    "volume": 0.06,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 262,
+  "fields": {
+    "name": "Угол Ал 0,14х0,14х3,00",
+    "group": "Углы",
+    "price": 9873.0,
+    "weight": 26.0,
+    "space": 0.84,
+    "volume": 0.12,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 263,
+  "fields": {
+    "name": "Угол Ал внутр. 0,20х0,30х3,00",
+    "group": "Углы",
+    "price": 24401.0,
+    "weight": 46.0,
+    "space": 1.5,
+    "volume": 0.21,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 264,
+  "fields": {
+    "name": "Угол Ал внутр. 0,25х0,25х3,00",
+    "group": "Углы",
+    "price": 23033.0,
+    "weight": 52.0,
+    "space": 1.5,
+    "volume": 0.21,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 265,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,30х1,50",
+    "group": "Углы",
+    "price": 16160.0,
+    "weight": 40.0,
+    "space": 0.9,
+    "volume": 0.14,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 266,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,30х1,80",
+    "group": "Углы",
+    "price": 20666.0,
+    "weight": 42.0,
+    "space": 1.08,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 267,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,30х3,00",
+    "group": "Углы",
+    "price": 26252.0,
+    "weight": 56.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 268,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,39х3,00",
+    "group": "Углы",
+    "price": 26000.0,
+    "weight": 65.0,
+    "space": 1.78,
+    "volume": 2.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 269,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,40х3,00",
+    "group": "Углы",
+    "price": 28286.0,
+    "weight": 65.0,
+    "space": 2.1,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 270,
+  "fields": {
+    "name": "Угол Ал внутр. 0,30х0,42х3,00",
+    "group": "Углы",
+    "price": 26050.0,
+    "weight": 70.0,
+    "space": 2.1,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 271,
+  "fields": {
+    "name": "Угол Ал внутр. 0,35х0,35х3,00",
+    "group": "Углы",
+    "price": 28465.0,
+    "weight": 58.0,
+    "space": 2.1,
+    "volume": 0.3,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 272,
+  "fields": {
+    "name": "Угол Ал внутр. 0,40х0,40х3,00",
+    "group": "Углы",
+    "price": 30238.0,
+    "weight": 80.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 273,
+  "fields": {
+    "name": "Угол Ал внутр. 0,50*0,30*3,00",
+    "group": "Углы",
+    "price": 34584.0,
+    "weight": 75.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 274,
+  "fields": {
+    "name": "Угол Ал внутр. 0,55*0,30*3,00",
+    "group": "Углы",
+    "price": 35220.0,
+    "weight": 79.0,
+    "space": 2.55,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 275,
+  "fields": {
+    "name": "Угол Ал внутр. шарнир 0,14х0,14х3,00",
+    "group": "Углы",
+    "price": 23277.0,
+    "weight": 45.0,
+    "space": 0.6,
+    "volume": 0.1,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 276,
+  "fields": {
+    "name": "Угол Ал внутр. шарнир 0,30х0,30х3,00",
+    "group": "Углы",
+    "price": 45532.0,
+    "weight": 60.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 277,
+  "fields": {
+    "name": "Угол Ал внутр. шарнир 0,40х0,40х3,00",
+    "group": "Углы",
+    "price": 33881.0,
+    "weight": 88.0,
+    "space": 2.8,
+    "volume": 0.33,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 278,
+  "fields": {
+    "name": "Угол Ал наруж. 0,30*0,30*3,00",
+    "group": "Углы",
+    "price": 30912.0,
+    "weight": 56.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 279,
+  "fields": {
+    "name": "Угол Ал наруж. 0,45*0,45*3,00",
+    "group": "Углы",
+    "price": 34740.0,
+    "weight": 84.0,
+    "space": 2.7,
+    "volume": 0.38,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 280,
+  "fields": {
+    "name": "Угол Ал наруж. 0,50х0,50х1,80",
+    "group": "Углы",
+    "price": 28160.0,
+    "weight": 59.0,
+    "space": 1.8,
+    "volume": 0.26,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 281,
+  "fields": {
+    "name": "Угол Ал наруж. 0,50х0,50х3,00",
+    "group": "Углы",
+    "price": 41674.0,
+    "weight": 93.0,
+    "space": 3.0,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 282,
+  "fields": {
+    "name": "Угол Ал наруж. 0,53*0,40*1,00",
+    "group": "Углы",
+    "price": 14500.0,
+    "weight": 28.0,
+    "space": 0.9,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 283,
+  "fields": {
+    "name": "Угол Ал наруж. 0,53х0,40х3,00",
+    "group": "Углы",
+    "price": 39081.0,
+    "weight": 93.0,
+    "space": 2.79,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 284,
+  "fields": {
+    "name": "Угол Ал наруж. 0,55х0,55х3,00",
+    "group": "Углы",
+    "price": 35360.0,
+    "weight": 108.0,
+    "space": 3.3,
+    "volume": 0.6,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 285,
+  "fields": {
+    "name": "Угол Ал наруж. 0,60*0,60*3,00",
+    "group": "Углы",
+    "price": 45553.0,
+    "weight": 104.0,
+    "space": 3.6,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 286,
+  "fields": {
+    "name": "Угол Ал наруж. 0,70*0,70*3,00",
+    "group": "Углы",
+    "price": 50843.0,
+    "weight": 130.0,
+    "space": 4.2,
+    "volume": 0.59,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 287,
+  "fields": {
+    "name": "Щит Ал линейный 0,20х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 18313.0,
+    "weight": 20.0,
+    "space": 0.6,
+    "volume": 0.09,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 288,
+  "fields": {
+    "name": "Щит Ал линейный 0,25х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 18940.0,
+    "weight": 27.0,
+    "space": 0.75,
+    "volume": 0.11,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 289,
+  "fields": {
+    "name": "Щит Ал линейный 0,30х1,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 9864.0,
+    "weight": 18.0,
+    "space": 0.3,
+    "volume": 0.004,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 290,
+  "fields": {
+    "name": "Щит Ал линейный 0,30х1,50",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 10080.0,
+    "weight": 25.0,
+    "space": 0.45,
+    "volume": 0.063,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 291,
+  "fields": {
+    "name": "Щит Ал линейный 0,30х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 19446.0,
+    "weight": 29.0,
+    "space": 0.9,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 292,
+  "fields": {
+    "name": "Щит Ал линейный 0,30х3,30",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 18490.0,
+    "weight": 30.0,
+    "space": 1.0,
+    "volume": 0.14,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 293,
+  "fields": {
+    "name": "Щит Ал линейный 0,35х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 20648.0,
+    "weight": 35.0,
+    "space": 1.05,
+    "volume": 0.15,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 294,
+  "fields": {
+    "name": "Щит Ал линейный 0,39х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 19825.0,
+    "weight": 37.0,
+    "space": 1.17,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 295,
+  "fields": {
+    "name": "Щит Ал линейный 0,40х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22766.0,
+    "weight": 38.0,
+    "space": 1.2,
+    "volume": 0.17,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 296,
+  "fields": {
+    "name": "Щит Ал линейный 0,42х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 19960.0,
+    "weight": 40.0,
+    "space": 1.26,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 297,
+  "fields": {
+    "name": "Щит Ал линейный 0,45х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22597.0,
+    "weight": 40.0,
+    "space": 1.35,
+    "volume": 0.19,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 298,
+  "fields": {
+    "name": "Щит Ал линейный 0,45х3,30",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 20492.0,
+    "weight": 46.0,
+    "space": 1.49,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 299,
+  "fields": {
+    "name": "Щит Ал линейный 0,48х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21200.0,
+    "weight": 48.0,
+    "space": 1.44,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 300,
+  "fields": {
+    "name": "Щит Ал линейный 0,50х2,10",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 16244.0,
+    "weight": 33.0,
+    "space": 1.05,
+    "volume": 0.15,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 301,
+  "fields": {
+    "name": "Щит Ал линейный 0,50х2,80",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22000.0,
+    "weight": 45.0,
+    "space": 1.4,
+    "volume": 0.2,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 302,
+  "fields": {
+    "name": "Щит Ал линейный 0,50х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 25431.0,
+    "weight": 48.0,
+    "space": 1.5,
+    "volume": 0.21,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 303,
+  "fields": {
+    "name": "Щит Ал линейный 0,51х3,30",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21720.0,
+    "weight": 49.0,
+    "space": 1.53,
+    "volume": 0.24,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 304,
+  "fields": {
+    "name": "Щит Ал линейный 0,53х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21800.0,
+    "weight": 53.0,
+    "space": 1.57,
+    "volume": 0.22,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 305,
+  "fields": {
+    "name": "Щит Ал линейный 0,54х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21840.0,
+    "weight": 55.0,
+    "space": 1.65,
+    "volume": 0.23,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 306,
+  "fields": {
+    "name": "Щит Ал линейный 0,55х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 26151.0,
+    "weight": 53.0,
+    "space": 1.65,
+    "volume": 0.23,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 307,
+  "fields": {
+    "name": "Щит Ал линейный 0,56х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21936.0,
+    "weight": 54.0,
+    "space": 1.68,
+    "volume": 0.24,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 308,
+  "fields": {
+    "name": "Щит Ал линейный 0,56х3,30",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 21936.0,
+    "weight": 54.0,
+    "space": 1.7,
+    "volume": 0.26,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 309,
+  "fields": {
+    "name": "Щит Ал линейный 0,60х1,50",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 16419.0,
+    "weight": 29.0,
+    "space": 0.9,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 310,
+  "fields": {
+    "name": "Щит Ал линейный 0,60х2,10",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 17504.0,
+    "weight": 38.0,
+    "space": 1.26,
+    "volume": 0.17,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 311,
+  "fields": {
+    "name": "Щит Ал линейный 0,60х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 28837.0,
+    "weight": 58.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 312,
+  "fields": {
+    "name": "Щит Ал линейный 0,60х3,30",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22794.0,
+    "weight": 63.0,
+    "space": 1.98,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 313,
+  "fields": {
+    "name": "Щит Ал линейный 0,62х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22840.0,
+    "weight": 60.0,
+    "space": 1.86,
+    "volume": 0.26,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 314,
+  "fields": {
+    "name": "Щит Ал линейный 0,63х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22920.0,
+    "weight": 63.0,
+    "space": 1.89,
+    "volume": 0.26,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 315,
+  "fields": {
+    "name": "Щит Ал линейный 0,64х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 23040.0,
+    "weight": 62.0,
+    "space": 1.92,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 316,
+  "fields": {
+    "name": "Щит Ал линейный 0,65х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 29235.0,
+    "weight": 62.0,
+    "space": 1.95,
+    "volume": 0.27,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 317,
+  "fields": {
+    "name": "Щит Ал линейный 0,66х3,00",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 23938.0,
+    "weight": 63.0,
+    "space": 1.98,
+    "volume": 0.55,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 318,
+  "fields": {
+    "name": "Щит Ал линейный 0,75*1,50",
+    "group": "Щиты ал.1 (< 0,7м)",
+    "price": 22200.0,
+    "weight": 36.0,
+    "space": 1.12,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 319,
+  "fields": {
+    "name": "Щит Ал линейный 0,70х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 29629.0,
+    "weight": 67.0,
+    "space": 2.1,
+    "volume": 0.3,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 320,
+  "fields": {
+    "name": "Щит Ал линейный 0,75х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 30880.0,
+    "weight": 72.0,
+    "space": 2.25,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 321,
+  "fields": {
+    "name": "Щит Ал линейный 0,75х3,30",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 25273.0,
+    "weight": 80.0,
+    "space": 2.48,
+    "volume": 0.35,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 322,
+  "fields": {
+    "name": "Щит Ал линейный 0,76х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 31043.0,
+    "weight": 75.0,
+    "space": 2.25,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 323,
+  "fields": {
+    "name": "Щит Ал линейный 0,80х1,20",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 13280.0,
+    "weight": 31.0,
+    "space": 0.96,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 324,
+  "fields": {
+    "name": "Щит Ал линейный 0,80х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 32066.0,
+    "weight": 77.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 325,
+  "fields": {
+    "name": "Щит Ал линейный 0,80х3,30",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 25987.0,
+    "weight": 84.0,
+    "space": 2.64,
+    "volume": 0.37,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 326,
+  "fields": {
+    "name": "Щит Ал линейный 0,85х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 33123.0,
+    "weight": 82.0,
+    "space": 2.55,
+    "volume": 0.36,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 327,
+  "fields": {
+    "name": "Щит Ал линейный 0,90х1,50",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 20601.0,
+    "weight": 35.0,
+    "space": 1.08,
+    "volume": 0.19,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 328,
+  "fields": {
+    "name": "Щит Ал линейный 0,90х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 34266.0,
+    "weight": 86.0,
+    "space": 2.7,
+    "volume": 0.38,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 329,
+  "fields": {
+    "name": "Щит Ал линейный 0,90х3,30",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 26420.0,
+    "weight": 95.0,
+    "space": 2.97,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 330,
+  "fields": {
+    "name": "Щит Ал линейный 0,95х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 36531.0,
+    "weight": 91.0,
+    "space": 2.85,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 331,
+  "fields": {
+    "name": "Щит Ал линейный 0,95х3,30",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 28720.0,
+    "weight": 95.0,
+    "space": 3.13,
+    "volume": 0.438,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 332,
+  "fields": {
+    "name": "Щит Ал линейный 0,96х3,00",
+    "group": "Щиты ал.2 (>=0,7м; < 1м)",
+    "price": 28760.0,
+    "weight": 94.0,
+    "space": 2.88,
+    "volume": 0.4,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 333,
+  "fields": {
+    "name": "Щит Ал линейный 1,00х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 37834.0,
+    "weight": 97.0,
+    "space": 3.0,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 334,
+  "fields": {
+    "name": "Щит Ал линейный 1,00х3,30",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 37834.0,
+    "weight": 100.0,
+    "space": 3.3,
+    "volume": 0.46,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 335,
+  "fields": {
+    "name": "Щит Ал линейный 1,05х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 37834.0,
+    "weight": 102.0,
+    "space": 3.15,
+    "volume": 0.44,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 336,
+  "fields": {
+    "name": "Щит Ал линейный 1,10х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 39902.0,
+    "weight": 106.0,
+    "space": 3.3,
+    "volume": 0.46,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 337,
+  "fields": {
+    "name": "Щит Ал линейный 1,15х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 40455.0,
+    "weight": 115.0,
+    "space": 3.45,
+    "volume": 0.48,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 338,
+  "fields": {
+    "name": "Щит Ал линейный 1,20х1,50",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 24300.0,
+    "weight": 57.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 339,
+  "fields": {
+    "name": "Щит Ал линейный 1,20х2,50",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 26032.0,
+    "weight": 100.0,
+    "space": 3.0,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 340,
+  "fields": {
+    "name": "Щит Ал линейный 1,20х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 42074.0,
+    "weight": 114.0,
+    "space": 3.6,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 341,
+  "fields": {
+    "name": "Щит Ал линейный 1,20х3,20",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 42074.0,
+    "weight": 120.0,
+    "space": 3.84,
+    "volume": 0.54,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 342,
+  "fields": {
+    "name": "Щит Ал линейный 1,20х3,30",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 42074.0,
+    "weight": 120.0,
+    "space": 3.96,
+    "volume": 0.55,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 343,
+  "fields": {
+    "name": "Щит Ал линейный 1,30х3,00",
+    "group": "Щиты ал.3 (>=1м)",
+    "price": 42074.0,
+    "weight": 126.0,
+    "space": 3.9,
+    "volume": 0.55,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 344,
+  "fields": {
+    "name": "Щит Ал универсал 0,50х3,00",
+    "group": "Щиты универсальные",
+    "price": 28347.0,
+    "weight": 48.0,
+    "space": 1.5,
+    "volume": 0.21,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 345,
+  "fields": {
+    "name": "Щит Ал универсал 0,55х3,00",
+    "group": "Щиты универсальные",
+    "price": 27270.0,
+    "weight": 51.0,
+    "space": 1.65,
+    "volume": 0.23,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 346,
+  "fields": {
+    "name": "Щит Ал универсал 0,60х1,50",
+    "group": "Щиты универсальные",
+    "price": 18080.0,
+    "weight": 46.0,
+    "space": 0.9,
+    "volume": 0.13,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 347,
+  "fields": {
+    "name": "Щит Ал универсал 0,60х3,00",
+    "group": "Щиты универсальные",
+    "price": 31318.0,
+    "weight": 58.0,
+    "space": 1.8,
+    "volume": 0.25,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 348,
+  "fields": {
+    "name": "Щит Ал универсал 0,63х3,00",
+    "group": "Щиты универсальные",
+    "price": 28486.0,
+    "weight": 61.0,
+    "space": 1.89,
+    "volume": 0.26,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 349,
+  "fields": {
+    "name": "Щит Ал универсал 0,70х1,80",
+    "group": "Щиты универсальные",
+    "price": 19948.0,
+    "weight": 40.0,
+    "space": 1.26,
+    "volume": 0.18,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 350,
+  "fields": {
+    "name": "Щит Ал универсал 0,70х3,00",
+    "group": "Щиты универсальные",
+    "price": 34356.0,
+    "weight": 67.0,
+    "space": 2.1,
+    "volume": 0.29,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 351,
+  "fields": {
+    "name": "Щит Ал универсал 0,75х1,50",
+    "group": "Щиты универсальные",
+    "price": 24500.0,
+    "weight": 42.0,
+    "space": 1.15,
+    "volume": 0.16,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 352,
+  "fields": {
+    "name": "Щит Ал универсал 0,75х3,00",
+    "group": "Щиты универсальные",
+    "price": 34956.0,
+    "weight": 72.0,
+    "space": 2.25,
+    "volume": 0.32,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 353,
+  "fields": {
+    "name": "Щит Ал универсал 0,76х3,00",
+    "group": "Щиты универсальные",
+    "price": 34956.0,
+    "weight": 77.0,
+    "space": 2.5,
+    "volume": 0.351,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 354,
+  "fields": {
+    "name": "Щит Ал универсал 0,80х3,00",
+    "group": "Щиты универсальные",
+    "price": 36039.0,
+    "weight": 90.0,
+    "space": 2.4,
+    "volume": 0.34,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 355,
+  "fields": {
+    "name": "Щит Ал универсал 0,80х3,30",
+    "group": "Щиты универсальные",
+    "price": 32273.0,
+    "weight": 93.0,
+    "space": 2.64,
+    "volume": 0.37,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 356,
+  "fields": {
+    "name": "Щит Ал универсал 0,90х1,50",
+    "group": "Щиты универсальные",
+    "price": 24098.0,
+    "weight": 52.0,
+    "space": 1.35,
+    "volume": 0.189,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 357,
+  "fields": {
+    "name": "Щит Ал универсал 0,90х3,00",
+    "group": "Щиты универсальные",
+    "price": 40176.0,
+    "weight": 84.0,
+    "space": 2.7,
+    "volume": 0.38,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 358,
+  "fields": {
+    "name": "Щит Ал универсал 0,90х3,30",
+    "group": "Щиты универсальные",
+    "price": 34413.0,
+    "weight": 88.0,
+    "space": 2.97,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 359,
+  "fields": {
+    "name": "Щит Ал универсал 1,00х3,00",
+    "group": "Щиты универсальные",
+    "price": 44773.0,
+    "weight": 96.0,
+    "space": 3.0,
+    "volume": 0.42,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 360,
+  "fields": {
+    "name": "Щит Ал универсал 1,10х3,00",
+    "group": "Щиты универсальные",
+    "price": 38682.0,
+    "weight": 108.0,
+    "space": 3.3,
+    "volume": 0.46,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 361,
+  "fields": {
+    "name": "Щит Ал универсал 1,20х1,50",
+    "group": "Щиты универсальные",
+    "price": 30118.0,
+    "weight": 73.0,
+    "space": 1.8,
+    "volume": 0.025,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 362,
+  "fields": {
+    "name": "Щит Ал универсал 1,20х3,00",
+    "group": "Щиты универсальные",
+    "price": 48852.0,
+    "weight": 126.0,
+    "space": 3.6,
+    "volume": 0.5,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+},
+{
+  "model": "kp.kpequipment",
+  "pk": 363,
+  "fields": {
+    "name": "Щит Ал универсал 1,20х3,30",
+    "group": "Щиты универсальные",
+    "price": 48852.0,
+    "weight": 132.0,
+    "space": 3.96,
+    "volume": 0.554,
+    "length": 0.0,
+    "is_active": true,
+    "updated_at": "2026-11-13T21:22:00.361Z"
+  }
+}
+]
