@@ -153,8 +153,8 @@ STORAGES = {
 MEDIA_URL = 'media/'
 MEDIA_ROOT = DATA_DIR / 'media'
 
-# Шаблон договора, из которого собирается .docx
-DOCX_TEMPLATE = BASE_DIR / 'templates' / 'docx' / 'dogovor.docx'
+# Бланки КП: у каждого арендодателя свой, выбирается при выгрузке.
+KP_TEMPLATES_DIR = BASE_DIR / 'templates' / 'word_templates'
 
 
 # Email
