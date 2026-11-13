@@ -8,12 +8,26 @@ python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 
 # База на постоянном томе создаётся пустой, а шелла в контейнере нет —
-# заводим администратора из переменных окружения. Если он уже есть,
-# createsuperuser падает с ошибкой, и это нормально.
+# заводим администратора из переменных окружения. Проверяем наличие явно:
+# createsuperuser --noinput падает и когда юзер есть, и когда не задан
+# DJANGO_SUPERUSER_EMAIL, а различать эти случаи в логах важно.
 if [ -n "$DJANGO_SUPERUSER_USERNAME" ] && [ -n "$DJANGO_SUPERUSER_PASSWORD" ]; then
-  python manage.py createsuperuser --noinput 2>/dev/null \
-    && echo "Создан суперпользователь $DJANGO_SUPERUSER_USERNAME" \
-    || echo "Суперпользователь уже существует, пропускаем"
+  python manage.py shell -v 0 -c '
+import os
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+username = os.environ["DJANGO_SUPERUSER_USERNAME"]
+if User.objects.filter(username=username).exists():
+    print(f"Суперпользователь {username} уже есть")
+else:
+    User.objects.create_superuser(
+        username,
+        os.environ.get("DJANGO_SUPERUSER_EMAIL", ""),
+        os.environ["DJANGO_SUPERUSER_PASSWORD"],
+    )
+    print(f"Создан суперпользователь {username}")
+'
 fi
 
 # Long polling живёт в отдельном процессе: gunicorn может иметь несколько

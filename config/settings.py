@@ -94,6 +94,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': DATA_DIR / 'db.sqlite3',
+        # В контейнере в базу пишут и воркеры gunicorn, и процесс бота.
+        # Без таймаута параллельная запись падает с "database is locked"
+        # сразу, с ним — ждёт освобождения блокировки.
+        'OPTIONS': {'timeout': 20},
     }
 }
 
