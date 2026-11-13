@@ -164,3 +164,15 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+# FTP с ночной выгрузкой Access: оборудование, доступное к добавлению в КП.
+# В исходном проекте читалось через django-environ (env/env.int), здесь его нет —
+# настройки берём тем же os.getenv, что и всё остальное выше.
+KP_TMC_FTP_HOST = os.getenv("KP_TMC_FTP_HOST", "")
+KP_TMC_FTP_PORT = int(os.getenv("KP_TMC_FTP_PORT", "21"))
+KP_TMC_FTP_USER = os.getenv("KP_TMC_FTP_USER", "")
+KP_TMC_FTP_PASSWORD = os.getenv("KP_TMC_FTP_PASSWORD", "")
+KP_TMC_FTP_DIR = os.getenv("KP_TMC_FTP_DIR", "files")
+KP_TMC_FTP_FILENAME = os.getenv("KP_TMC_FTP_FILENAME", "tmc_data.csv")
+KP_TMC_FTP_TIMEOUT = int(os.getenv("KP_TMC_FTP_TIMEOUT", "30"))
