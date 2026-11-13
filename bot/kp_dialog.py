@@ -6,6 +6,7 @@
 """
 
 import logging
+from pathlib import Path
 
 from asgiref.sync import sync_to_async
 from django.db import close_old_connections
@@ -154,6 +155,17 @@ def finish_row(*, has_items: bool) -> list[CallbackButton]:
 
 
 # --- тексты ------------------------------------------------------------
+
+
+def attachment_name(filename: str) -> str:
+    """Имя для вложения — без расширения.
+
+    maxapi при загрузке приписывает к имени расширение, угаданное по
+    содержимому файла, не проверяя, есть ли оно уже. С готовым именем
+    в чат приходило «КП-1.docx.docx».
+    """
+
+    return Path(filename).stem
 
 
 def basket(items: list[dict]) -> str:
@@ -354,5 +366,5 @@ async def finish(event: MessageCallback, context: MemoryContext):
     await context.clear()
     await event.send(
         f"КП-{number} готово.\n\n{basket(items)}",
-        attachments=[InputMediaBuffer(raw, filename=filename, type=UploadType.FILE)],
+        attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
     )

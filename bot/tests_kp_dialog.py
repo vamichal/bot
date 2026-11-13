@@ -1,7 +1,16 @@
 from asgiref.sync import async_to_sync
 from django.test import SimpleTestCase, TestCase
 
-from bot.kp_dialog import PAGE_SIZE, basket, finish_row, load_groups, load_page, page_keyboard, search
+from bot.kp_dialog import (
+    PAGE_SIZE,
+    attachment_name,
+    basket,
+    finish_row,
+    load_groups,
+    load_page,
+    page_keyboard,
+    search,
+)
 from kp.models import KPEquipment
 
 
@@ -111,3 +120,16 @@ class AckTest(SimpleTestCase):
         from kp.services.document import LANDLORD_CHOICES, TEMPLATE_BY_LANDLORD
 
         self.assertEqual(set(dict(LANDLORD_CHOICES)), set(TEMPLATE_BY_LANDLORD))
+
+
+class AttachmentNameTest(SimpleTestCase):
+    """maxapi дописывает расширение по содержимому, не проверяя, есть ли оно."""
+
+    def test_strips_extension(self):
+        self.assertEqual(attachment_name("ООО_Ромашка_КП-1.docx"), "ООО_Ромашка_КП-1")
+
+    def test_keeps_dots_inside_the_name(self):
+        self.assertEqual(attachment_name("ООО_А.Б._КП-7.docx"), "ООО_А.Б._КП-7")
+
+    def test_name_without_extension_survives(self):
+        self.assertEqual(attachment_name("КП-3"), "КП-3")
