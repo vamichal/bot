@@ -1,0 +1,7 @@
+Django>=5.0
+gunicorn
+maxapi
+python-docx
+docxtpl
+whitenoise
+maxapi
