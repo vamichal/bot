@@ -9,6 +9,7 @@ import logging
 from pathlib import Path
 
 from asgiref.sync import sync_to_async
+from django.conf import settings
 from django.db import close_old_connections
 
 from maxapi import F, Router
@@ -166,6 +167,58 @@ def attachment_name(filename: str) -> str:
     """
 
     return Path(filename).stem
+
+
+def author_title(user) -> str:
+    """Как подписать автора КП в уведомлении менеджерам.
+
+    Ник есть не у всех, поэтому в запасе остаётся числовой id: по нему
+    человека можно найти, даже если он не завёл username.
+    """
+
+    if user is None:
+        return "неизвестно кто"
+
+    name = user.full_name
+    return f"{name} (@{user.username})" if user.username else f"{name} (id {user.user_id})"
+
+
+def managers_message(number: int, data: dict, items: list[dict], user) -> str:
+    """Текст уведомления в чат менеджеров."""
+
+    total = sum(item["price"] * item["quantity"] for item in items)
+    positions = "\n".join(f"• {item['name']} — {item['quantity']} шт." for item in items)
+
+    return (
+        f"🆕 Собрано КП-{number}\n\n"
+        f"Получатель: {data['shortname']}\n"
+        f"Адрес объекта: {data['address']}\n"
+        f"Арендодатель: {dict(LANDLORD_CHOICES)[data['landlord']]}\n\n"
+        f"{positions}\n\n"
+        f"Сумма набора: {format_money(total)} ₽\n\n"
+        f"Собрал в боте: {author_title(user)}"
+    )
+
+
+async def notify_managers(bot, number: int, data: dict, items: list[dict], user, raw: bytes, filename: str) -> None:
+    """Дублирует КП в чат менеджеров.
+
+    Молча пропускаем, если чат не настроен, и не роняем диалог, если
+    отправка не удалась: пользователь свой файл уже получил, и терять
+    его из-за недоступного чата нельзя.
+    """
+
+    if not settings.KP_MANAGERS_CHAT_ID:
+        return
+
+    try:
+        await bot.send_message(
+            chat_id=settings.KP_MANAGERS_CHAT_ID,
+            text=managers_message(number, data, items, user),
+            attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
+        )
+    except Exception:
+        logger.exception("Не удалось отправить КП-%s в чат менеджеров", number)
 
 
 def basket(items: list[dict]) -> str:
@@ -368,3 +421,7 @@ async def finish(event: MessageCallback, context: MemoryContext):
         f"КП-{number} готово.\n\n{basket(items)}",
         attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
     )
+
+    # После ответа пользователю: его файл не должен зависеть от того,
+    # доступен ли чат менеджеров.
+    await notify_managers(event.bot, number, data, items, event.callback.user, raw, filename)

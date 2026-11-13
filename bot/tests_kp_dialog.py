@@ -1,13 +1,18 @@
+from types import SimpleNamespace
+
 from asgiref.sync import async_to_sync
-from django.test import SimpleTestCase, TestCase
+from django.test import SimpleTestCase, TestCase, override_settings
 
 from bot.kp_dialog import (
     PAGE_SIZE,
     attachment_name,
+    author_title,
     basket,
     finish_row,
     load_groups,
     load_page,
+    managers_message,
+    notify_managers,
     page_keyboard,
     search,
 )
@@ -133,3 +138,79 @@ class AttachmentNameTest(SimpleTestCase):
 
     def test_name_without_extension_survives(self):
         self.assertEqual(attachment_name("КП-3"), "КП-3")
+
+
+USER = SimpleNamespace(user_id=90055844, first_name="Иван", last_name="Иванов", username="ivanov", full_name="Иван Иванов")
+
+DATA = {
+    "shortname": 'ООО "Ромашка"',
+    "address": "г. Новосибирск, ул. Строителей, 15",
+    "landlord": "irs",
+}
+
+ITEMS = [
+    {"name": "Щит Ал универсал 0,63х3,00", "price": 28486.0, "quantity": 3},
+    {"name": "Вертикаль 500", "price": 1490.0, "quantity": 56},
+]
+
+
+class AuthorTitleTest(SimpleTestCase):
+    def test_prefers_username(self):
+        self.assertEqual(author_title(USER), "Иван Иванов (@ivanov)")
+
+    def test_falls_back_to_id(self):
+        """Ник есть не у всех, но найти человека менеджеру всё равно нужно."""
+
+        anonymous = SimpleNamespace(user_id=42, username=None, full_name="Пётр")
+        self.assertEqual(author_title(anonymous), "Пётр (id 42)")
+
+    def test_survives_missing_user(self):
+        self.assertEqual(author_title(None), "неизвестно кто")
+
+
+class ManagersMessageTest(SimpleTestCase):
+    def test_contains_everything_a_manager_needs(self):
+        text = managers_message(7, DATA, ITEMS, USER)
+
+        self.assertIn("КП-7", text)
+        self.assertIn('ООО "Ромашка"', text)
+        self.assertIn("ул. Строителей, 15", text)
+        self.assertIn('ООО "ИРС"', text)
+        self.assertIn("Вертикаль 500 — 56 шт.", text)
+        self.assertIn("168 898,00 ₽", text)
+        self.assertIn("@ivanov", text)
+
+
+class FakeBot:
+    def __init__(self, fail=False):
+        self.sent = []
+        self.fail = fail
+
+    async def send_message(self, **kwargs):
+        if self.fail:
+            raise RuntimeError("чат недоступен")
+        self.sent.append(kwargs)
+
+
+class NotifyManagersTest(SimpleTestCase):
+    @override_settings(KP_MANAGERS_CHAT_ID=None)
+    def test_silent_when_chat_is_not_configured(self):
+        bot = FakeBot()
+        async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+
+        self.assertEqual(bot.sent, [])
+
+    @override_settings(KP_MANAGERS_CHAT_ID=-73410621418148)
+    def test_sends_text_and_file(self):
+        bot = FakeBot()
+        async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+
+        self.assertEqual(len(bot.sent), 1)
+        self.assertEqual(bot.sent[0]["chat_id"], -73410621418148)
+        self.assertEqual(bot.sent[0]["attachments"][0].filename, "КП-1")
+
+    @override_settings(KP_MANAGERS_CHAT_ID=-73410621418148)
+    def test_failure_does_not_propagate(self):
+        """Пользователь свой файл уже получил — ронять диалог из-за чата нельзя."""
+
+        async_to_sync(notify_managers)(FakeBot(fail=True), 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
