@@ -209,6 +209,12 @@ async def notify_managers(bot, number: int, data: dict, items: list[dict], user,
     нельзя.
     """
 
+    if not settings.KP_MANAGERS_CHAT_IDS:
+        # Без этой строки пустая настройка выглядит в логе так же, как
+        # успешная отправка — то есть никак.
+        logger.warning("КП-%s никуда не продублировано: KP_MANAGERS_CHAT_IDS пуст", number)
+        return
+
     text = managers_message(number, data, items, user)
 
     for chat_id in settings.KP_MANAGERS_CHAT_IDS:
@@ -218,6 +224,7 @@ async def notify_managers(bot, number: int, data: dict, items: list[dict], user,
                 text=text,
                 attachments=[InputMediaBuffer(raw, filename=attachment_name(filename), type=UploadType.FILE)],
             )
+            logger.info("КП-%s отправлено в чат %s", number, chat_id)
         except Exception:
             logger.exception("Не удалось отправить КП-%s в чат %s", number, chat_id)
 

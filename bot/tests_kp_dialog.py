@@ -194,11 +194,27 @@ class FakeBot:
 
 class NotifyManagersTest(SimpleTestCase):
     @override_settings(KP_MANAGERS_CHAT_IDS=[])
-    def test_silent_when_no_chats_configured(self):
+    def test_sends_nothing_when_no_chats_configured(self):
         bot = FakeBot()
         async_to_sync(notify_managers)(bot, 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
 
         self.assertEqual(bot.sent, [])
+
+    @override_settings(KP_MANAGERS_CHAT_IDS=[])
+    def test_warns_when_no_chats_configured(self):
+        """Пустая настройка иначе неотличима в логе от успешной отправки."""
+
+        with self.assertLogs("bot.kp_dialog", level="WARNING") as logs:
+            async_to_sync(notify_managers)(FakeBot(), 1, DATA, ITEMS, USER, b"PK", "КП-1.docx")
+
+        self.assertIn("KP_MANAGERS_CHAT_IDS пуст", logs.output[0])
+
+    @override_settings(KP_MANAGERS_CHAT_IDS=[656501626])
+    def test_logs_successful_delivery(self):
+        with self.assertLogs("bot.kp_dialog", level="INFO") as logs:
+            async_to_sync(notify_managers)(FakeBot(), 7, DATA, ITEMS, USER, b"PK", "КП-7.docx")
+
+        self.assertIn("КП-7 отправлено в чат 656501626", logs.output[0])
 
     @override_settings(KP_MANAGERS_CHAT_IDS=[-73410621418148])
     def test_sends_text_and_file(self):
