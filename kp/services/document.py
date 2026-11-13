@@ -36,6 +36,21 @@ DAYS_IN_MONTH = 30
 # Новое КП почти всегда с 10%.
 DEFAULT_SECURITY_PAYMENT_PERCENT = 10
 
+# Временная заглушка до переноса расчёта из CRM. Там менеджер задавал либо
+# стоимость аренды в сутки, либо коэффициент аренды, и поля пересчитывали
+# друг друга: rent_day = сумма набора × коэффициент / 100.
+DEFAULT_RENT_DAY = 500.0
+
+
+def alphabetical(name: str) -> str:
+    """Ключ сортировки позиций в документе.
+
+    «ё» приводим к «е»: в Unicode она стоит за «я» и иначе уезжала бы
+    в конец списка.
+    """
+
+    return name.strip().lower().replace("ё", "е")
+
 
 class TemplateBusinessError(Exception):
     """Документ нельзя собрать: не хватает данных или не выбран бланк."""
@@ -86,6 +101,7 @@ def build_context(
     """
 
     sum_kp = sum((item.get("price") or 0) * item["quantity"] for item in items)
+    items = sorted(items, key=lambda item: alphabetical(item["name"]))
 
     return {
         "sequence_number": sequence_number,
