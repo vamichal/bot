@@ -1,0 +1,7 @@
+# Контейнер Amvera — Linux: shell-скрипты обязаны иметь LF,
+# иначе `sh start.sh` падает с "bad interpreter".
+*.sh text eol=lf
+amvera.yml text eol=lf
+
+*.docx binary
+*.sqlite3 binary
