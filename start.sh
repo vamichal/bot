@@ -40,9 +40,18 @@ fi
   done
 ) &
 
+# Памяти на тарифе мало, а процесс бота уже занимает один интерпретатор.
+# Поэтому один воркер вместо двух, параллелизм — потоками (статику админки
+# whitenoise отдаёт через воркер, и в один поток страница грузилась бы
+# последовательно). --preload загружает Django в мастере до fork, так что
+# воркер наследует его страницы, а не выделяет свои.
 exec gunicorn config.wsgi:application \
   --bind 0.0.0.0:5000 \
-  --workers 2 \
+  --workers 1 \
+  --threads 4 \
+  --preload \
   --timeout 120 \
+  --max-requests 500 \
+  --max-requests-jitter 50 \
   --access-logfile - \
   --error-logfile -
