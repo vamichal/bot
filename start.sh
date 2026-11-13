@@ -7,6 +7,15 @@ cd "$(dirname "$0")"
 python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 
+# База на постоянном томе создаётся пустой, а шелла в контейнере нет —
+# заводим администратора из переменных окружения. Если он уже есть,
+# createsuperuser падает с ошибкой, и это нормально.
+if [ -n "$DJANGO_SUPERUSER_USERNAME" ] && [ -n "$DJANGO_SUPERUSER_PASSWORD" ]; then
+  python manage.py createsuperuser --noinput 2>/dev/null \
+    && echo "Создан суперпользователь $DJANGO_SUPERUSER_USERNAME" \
+    || echo "Суперпользователь уже существует, пропускаем"
+fi
+
 # Long polling живёт в отдельном процессе: gunicorn может иметь несколько
 # воркеров, а опрашивать MAX должен ровно один процесс.
 # Если бот падает — поднимаем заново, не роняя веб.
