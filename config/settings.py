@@ -145,9 +145,17 @@ STORAGES = {
         'BACKEND': 'django.core.files.storage.FileSystemStorage',
     },
     'staticfiles': {
-        'BACKEND': 'whitenoise.storage.CompressedManifestStaticFilesStorage',
+        'BACKEND': 'django.contrib.staticfiles.storage.StaticFilesStorage',
     },
 }
+
+# whitenoise отдаёт статику напрямую из приложений, без collectstatic.
+# Тот сжимал и хешировал 390 файлов на каждом запуске, а на четверти ядра
+# это десятки секунд полного троттлинга — из-за чего платформа не
+# дожидалась готовности контейнера и убивала его. Статику здесь смотрит
+# полтора человека в админке, кеширующие заголовки ради этого не нужны.
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_AUTOREFRESH = True
 
 # Сгенерированные договоры — на постоянный том.
 MEDIA_URL = 'media/'
