@@ -30,8 +30,8 @@ class KPItemInline(admin.TabularInline):
 
 @admin.register(KP)
 class KPAdmin(admin.ModelAdmin):
-    list_display = ("sequence_number", "shortname", "landlord", "rent_day", "date_created")
+    list_display = ("sequence_number", "shortname", "landlord", "rent_day", "author_name", "date_created")
     list_filter = ("landlord", "date_created")
-    search_fields = ("sequence_number", "shortname", "address")
-    readonly_fields = ("sequence_number", "date_created", "author_user_id")
+    search_fields = ("sequence_number", "shortname", "address", "author_name")
+    readonly_fields = ("sequence_number", "date_created", "author_user_id", "author_name")
     inlines = [KPItemInline]

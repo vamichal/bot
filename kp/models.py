@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 from kp.services.document import DEFAULT_RENT_DAY, DEFAULT_SECURITY_PAYMENT_PERCENT, LANDLORD_CHOICES
 
@@ -48,7 +49,14 @@ class KP(models.Model):
         default=DEFAULT_SECURITY_PAYMENT_PERCENT,
     )
     author_user_id = models.BigIntegerField("ID пользователя MAX", null=True, blank=True)
-    date_created = models.DateField("Дата", auto_now_add=True)
+    # Имя автора — снимок на момент сборки: в сводке по дню нужно читаемое
+    # «кто собрал», а по числовому id в чате человека не узнать.
+    author_name = models.CharField("Кто собрал", max_length=255, blank=True, default="")
+    # Намеренно не auto_now_add: у DateField он заполняется datetime.date.today(),
+    # то есть датой по часам контейнера (на Amvera — UTC), а не по TIME_ZONE.
+    # КП, собранное ночью по Москве, получало бы вчерашнюю дату — и в документе,
+    # и в сводке за день.
+    date_created = models.DateField("Дата", default=timezone.localdate)
 
     def __str__(self):
         return f"КП-{self.sequence_number} — {self.shortname}"

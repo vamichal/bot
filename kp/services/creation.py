@@ -15,7 +15,7 @@ def next_sequence_number() -> int:
     return (KP.objects.aggregate(last=Max("sequence_number"))["last"] or 0) + 1
 
 
-def create_kp(*, shortname, address, landlord, items, author_user_id=None, rent_day=None):
+def create_kp(*, shortname, address, landlord, items, author_user_id=None, author_name="", rent_day=None):
     """Сохраняет КП и его позиции.
 
     items — [{"equipment_id": int, "quantity": int}]. Параметры оборудования
@@ -33,6 +33,7 @@ def create_kp(*, shortname, address, landlord, items, author_user_id=None, rent_
                     address=address,
                     landlord=landlord,
                     author_user_id=author_user_id,
+                    author_name=author_name,
                 )
                 if rent_day is not None:
                     kp.rent_day = rent_day

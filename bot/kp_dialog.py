@@ -91,7 +91,7 @@ def load_equipment(equipment_id: int) -> dict | None:
 
 
 @sync_to_async
-def save_and_render(data: dict, user_id: int | None) -> tuple[bytes, str, int]:
+def save_and_render(data: dict, user_id: int | None, user_name: str = "") -> tuple[bytes, str, int]:
     close_old_connections()
     kp = create_kp(
         shortname=data["shortname"],
@@ -99,6 +99,7 @@ def save_and_render(data: dict, user_id: int | None) -> tuple[bytes, str, int]:
         landlord=data["landlord"],
         items=data["items"],
         author_user_id=user_id,
+        author_name=user_name,
     )
     raw, filename = build_document(kp)
     return raw, filename, kp.sequence_number
@@ -415,7 +416,8 @@ async def finish(event: MessageCallback, context: MemoryContext):
     await event.answer(new_text="Собираю документ…", attachments=[])
 
     try:
-        raw, filename, number = await save_and_render(data, event.callback.user.user_id)
+        user = event.callback.user
+        raw, filename, number = await save_and_render(data, user.user_id, user.full_name or "")
     except TemplateBusinessError as error:
         await event.send(f"Не удалось собрать КП: {error}")
         return
